@@ -1,0 +1,17 @@
+{
+    "name": "GK.World",
+    "rootNamespace": "GeorgianKnight.World",
+    "references": [
+        "GK.Core",
+        "GK.Gameplay"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

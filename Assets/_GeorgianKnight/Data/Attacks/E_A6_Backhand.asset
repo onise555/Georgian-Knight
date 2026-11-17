@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: E_A6_Backhand
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: AX_standing_melee_attack_backhand
+  clip: {fileID: -203655887218126122, guid: 36bd658a5147629469c5a47f33c3c251, type: 3}
+  speed: 0.95
+  fadeIn: 0.08
+  hitStart: 0.25
+  hitEnd: 0.425
+  comboWindow: 0.44500002
+  dodgeCancel: 0.485
+  end: 0.605
+  steerUntil: 0.1875
+  damage: 17
+  poiseDamage: 18
+  staminaCost: 10
+  unblockable: 0
+  guardBreak: 0
+  reaction: 1
+  knockback: 1.1
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.06
+  shake: 0.25
+  warpMaxDistance: 2.6
+  idealRange: 1.2829766
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: b451cbb12c299a3499b0b7d80aa4fb99, type: 2}
+  nextHeavy: {fileID: 0}
+  offHand: 0

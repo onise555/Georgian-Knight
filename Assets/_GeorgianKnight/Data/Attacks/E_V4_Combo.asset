@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: E_V4_Combo
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: AX_standing_melee_combo_attack_ver_1
+  clip: {fileID: -203655887218126122, guid: 2952456e4f2e9e64aaaf2650b0b8a410, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1
+  fadeIn: 0.08
+  hitStart: 0.17166667
+  windupSpeed: 1
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.545
+  cutDir: {x: 0.8573955, y: 0.39821953, z: -0.32602775}
+  cuts:
+  - {x: 0.17166667, y: 0.295}
+  - {x: 0.43833333, y: 0.545}
+  comboWindow: 0.565
+  dodgeCancel: 0.605
+  end: 0.80833334
+  steerUntil: 0.12875
+  damage: 22
+  poiseDamage: 22
+  staminaCost: 14
+  unblockable: 0
+  guardBreak: 0
+  reaction: 1
+  knockback: 1.1
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.06
+  shake: 0.25
+  warpMaxDistance: 2.6
+  idealRange: 0.9
+  maxWarpSpeed: 9
+  nextLight: {fileID: 0}
+  nextHeavy: {fileID: 0}
+  nextLightVia: {fileID: 0}
+  offHand: 0.85
+  pairedVictim: 1

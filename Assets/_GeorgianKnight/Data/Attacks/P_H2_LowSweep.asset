@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: P_H2_LowSweep
+  m_EditorClassIdentifier: 
+  kind: 1
+  state: SS_Low_Attack
+  clip: {fileID: -203655887218126122, guid: 93997e70551c75540a9e6bf54565ee1a, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.1
+  fadeIn: 0.08
+  hitStart: 0.35
+  windupSpeed: 1.4141415
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.43333334
+  cutDir: {x: 0.4872014, y: -0.11696525, z: 0.8654213}
+  cuts: []
+  comboWindow: 0.49333334
+  dodgeCancel: 0.49333334
+  end: 0.61333334
+  steerUntil: 0.2625
+  damage: 30
+  poiseDamage: 55
+  staminaCost: 18
+  unblockable: 0
+  guardBreak: 0
+  reaction: 4
+  knockback: 1.6
+  hyperArmor: 1
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.08
+  shake: 0.4
+  warpMaxDistance: 2.6
+  idealRange: 1.9
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: c6f5a8941aa1f3f41a3b53b3d663d866, type: 2}
+  nextHeavy: {fileID: 11400000, guid: 09221deb1e6fe0245b40646c8c5bc663, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0.85
+  pairedVictim: 1

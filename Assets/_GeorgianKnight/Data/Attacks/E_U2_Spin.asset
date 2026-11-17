@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: E_U2_Spin
+  m_EditorClassIdentifier: 
+  kind: 1
+  state: AX_standing_melee_attack_360_high
+  clip: {fileID: -203655887218126122, guid: e6b35566ac014f34f95f3e27e6797787, type: 3}
+  speed: 0.9
+  fadeIn: 0.08
+  hitStart: 0.3
+  hitEnd: 0.36666667
+  comboWindow: 0.42666668
+  dodgeCancel: 0.42666668
+  end: 0.5466667
+  steerUntil: 0.22500001
+  damage: 30
+  poiseDamage: 50
+  staminaCost: 18
+  unblockable: 1
+  guardBreak: 0
+  reaction: 2
+  knockback: 2.2
+  hyperArmor: 1
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.09
+  shake: 0.45
+  warpMaxDistance: 2.6
+  idealRange: 1.4459363
+  maxWarpSpeed: 9
+  nextLight: {fileID: 0}
+  nextHeavy: {fileID: 0}
+  offHand: 0

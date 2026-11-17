@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa481cb8f9d0934e9406b4b7617e9ac, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  database: {fileID: 11400000, guid: 2bee1fd729abf1545a06762c74124cee, type: 2}
+  mixer: {fileID: 0}
+  modules:
+  - {fileID: 11400000, guid: 3474037270f23ed4caaa989ef0f589bc, type: 2}
+  mainMenuScene: MainMenu
+  firstScene: Didgori
+  firstSpawn: start
+  autosaveMinInterval: 120

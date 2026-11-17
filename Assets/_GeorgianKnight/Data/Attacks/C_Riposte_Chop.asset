@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: C_Riposte_Chop
+  m_EditorClassIdentifier: 
+  kind: 4
+  state: SS_Downward_Slash
+  clip: {fileID: -203655887218126122, guid: b963b38550059194faa03f9bc705508b, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1
+  fadeIn: 0.18
+  hitStart: 0.435
+  windupSpeed: 1.4
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.485
+  cutDir: {x: -0.31050453, y: -0.27597085, z: 0.9096302}
+  cuts: []
+  comboWindow: 0.505
+  dodgeCancel: 0.545
+  end: 0.9
+  steerUntil: 0.32625002
+  damage: 55
+  poiseDamage: 60
+  staminaCost: 6
+  unblockable: 0
+  guardBreak: 0
+  reaction: 2
+  knockback: 2.5
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.12
+  shake: 0.5
+  warpMaxDistance: 2.6
+  idealRange: 1.496
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: dc92d5ad3cde19f43a64fe21095f0ba3, type: 2}
+  nextHeavy: {fileID: 11400000, guid: b4fdd2193074c33469dc7fc956c289cb, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0
+  pairedVictim: 1

@@ -1,0 +1,37 @@
+{
+  "entries": [
+    { "k": "bark.hero.warcry.01", "v": "Forward!" },
+    { "k": "bark.hero.warcry.02", "v": "The Cross and Saint George!" },
+    { "k": "bark.hero.warcry.03", "v": "God with us!" },
+    { "k": "bark.hero.warcry.04", "v": "Brothers, at them!" },
+    { "k": "bark.hero.warcry.05", "v": "Kldekareli!" },
+
+    { "k": "bark.geo.forward", "v": "Forward!" },
+    { "k": "bark.geo.close_line", "v": "Close the line!" },
+    { "k": "bark.geo.stand", "v": "Brothers, stand! Don't give a step!" },
+    { "k": "bark.geo.shields", "v": "Shields up!" },
+    { "k": "bark.geo.left_man", "v": "Don't leave the man on your left!" },
+    { "k": "bark.geo.lord_help", "v": "Lord, help us!" },
+    { "k": "bark.geo.cross", "v": "The cross is with us!" },
+    { "k": "bark.geo.wounded", "v": "He's hurt! Get him out!" },
+    { "k": "bark.geo.they_run", "v": "They've turned their backs! After them!" },
+
+    { "k": "bark.kip.come", "v": "Come on!" },
+    { "k": "bark.kip.shoot", "v": "Loose!" },
+    { "k": "bark.kip.hold", "v": "Hold!" },
+    { "k": "bark.kip.heaven", "v": "Heaven!" },
+
+    { "k": "bark.trk.come", "v": "Come!" },
+    { "k": "bark.trk.strike", "v": "Strike!" },
+    { "k": "bark.trk.kill", "v": "Kill him!" },
+    { "k": "bark.trk.loose", "v": "Loose arrows!" },
+    { "k": "bark.trk.advance", "v": "Advance!" },
+    { "k": "bark.trk.hold", "v": "Hold them!" },
+    { "k": "bark.trk.fall_back", "v": "Back! Run!" },
+
+    { "k": "bark.ara.advance", "v": "Advance!" },
+    { "k": "bark.ara.charge", "v": "Charge!" },
+    { "k": "bark.ara.takbir", "v": "God is greatest!" },
+    { "k": "bark.ara.rally", "v": "To me, Asad!" }
+  ]
+}

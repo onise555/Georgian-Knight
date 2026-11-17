@@ -1,0 +1,796 @@
+{
+  "entries": [
+    {
+      "k": "ui.hud.wave",
+      "v": "Assault {0} / {1}"
+    },
+    {
+      "k": "ui.hud.foes",
+      "v": "Foes left: {0}"
+    },
+    {
+      "k": "ui.hud.prepare",
+      "v": "They are coming…"
+    },
+    {
+      "k": "ui.banner.wave",
+      "v": "Assault {0}"
+    },
+    {
+      "k": "ui.banner.wave_cleared",
+      "v": "They fall back"
+    },
+    {
+      "k": "ui.banner.next_wave",
+      "v": "They come again…"
+    },
+    {
+      "k": "wave.didgori.1.title",
+      "v": "The vanguard"
+    },
+    {
+      "k": "wave.didgori.2.title",
+      "v": "The emir's ghulams"
+    },
+    {
+      "k": "wave.didgori.3.title",
+      "v": "Seasoned ghulams"
+    },
+    {
+      "k": "enemy.seljuk_warrior.name",
+      "v": "Ghulam swordsman"
+    },
+    {
+      "k": "enemy.seljuk_veteran.name",
+      "v": "Seasoned ghulam"
+    },
+    {
+      "k": "enemy.seljuk_champion.name",
+      "v": "Ilghazi's champion"
+    },
+    {
+      "k": "ui.action.move",
+      "v": "Move"
+    },
+    {
+      "k": "ui.action.camera",
+      "v": "Look"
+    },
+    {
+      "k": "ui.action.light",
+      "v": "Light attack"
+    },
+    {
+      "k": "ui.action.heavy",
+      "v": "Heavy attack"
+    },
+    {
+      "k": "ui.action.heavy.hint",
+      "v": "hold to strike harder"
+    },
+    {
+      "k": "ui.action.block",
+      "v": "Guard"
+    },
+    {
+      "k": "ui.action.block.hint",
+      "v": "time it to parry"
+    },
+    {
+      "k": "ui.action.dodge",
+      "v": "Dodge"
+    },
+    {
+      "k": "ui.action.sprint",
+      "v": "Sprint"
+    },
+    {
+      "k": "ui.action.lock",
+      "v": "Lock on"
+    },
+    {
+      "k": "ui.action.kick",
+      "v": "Kick"
+    },
+    {
+      "k": "ui.action.warcry",
+      "v": "War cry"
+    },
+    {
+      "k": "ui.action.pause",
+      "v": "Pause"
+    },
+    {
+      "k": "ui.action.holster",
+      "v": "Sheathe / draw"
+    },
+    {
+      "k": "ui.end.place",
+      "v": "Didgori · 1121"
+    },
+    {
+      "k": "ui.end.victory.title",
+      "v": "Victory"
+    },
+    {
+      "k": "ui.end.victory.line",
+      "v": "The line holds."
+    },
+    {
+      "k": "ui.end.defeat.title",
+      "v": "You fell"
+    },
+    {
+      "k": "ui.end.defeat.line",
+      "v": "The line stands without you. Rise."
+    },
+    {
+      "k": "ui.end.stat.waves",
+      "v": "Assaults"
+    },
+    {
+      "k": "ui.end.stat.kills",
+      "v": "Foes fallen"
+    },
+    {
+      "k": "ui.end.stat.time",
+      "v": "Time"
+    },
+    {
+      "k": "ui.end.restart",
+      "v": "Fight again"
+    },
+    {
+      "k": "ui.end.quit",
+      "v": "Quit game"
+    },
+    {
+      "k": "ui.pause.title",
+      "v": "Paused"
+    },
+    {
+      "k": "ui.pause.resume",
+      "v": "Resume"
+    },
+    {
+      "k": "ui.pause.restart",
+      "v": "Restart the fight"
+    },
+    {
+      "k": "ui.pause.controls",
+      "v": "Controls"
+    },
+    {
+      "k": "ui.pause.quit",
+      "v": "Quit game"
+    },
+    {
+      "k": "ui.confirm.restart.title",
+      "v": "Restart the fight?"
+    },
+    {
+      "k": "ui.confirm.restart.body",
+      "v": "This fight will not be saved."
+    },
+    {
+      "k": "ui.confirm.quit.title",
+      "v": "Quit the game?"
+    },
+    {
+      "k": "ui.common.yes",
+      "v": "Yes"
+    },
+    {
+      "k": "ui.common.no",
+      "v": "No"
+    },
+    {
+      "k": "ui.prompt.select",
+      "v": "Select"
+    },
+    {
+      "k": "ui.prompt.back",
+      "v": "Back"
+    },
+    {
+      "k": "ui.controls.device.kbm",
+      "v": "Keyboard and mouse"
+    },
+    {
+      "k": "ui.controls.device.pad",
+      "v": "Gamepad"
+    },
+    {
+      "k": "game.title",
+      "v": "Georgian Knight"
+    },
+    {
+      "k": "enemy.generic.name",
+      "v": "Turkmen"
+    },
+    {
+      "k": "ui.banner.last_wave",
+      "v": "The last assault"
+    },
+    {
+      "k": "ui.combat.parry",
+      "v": "Parried!"
+    },
+    {
+      "k": "ui.combat.perfect_dodge",
+      "v": "Perfect dodge"
+    },
+    {
+      "k": "ui.combat.guard_broken",
+      "v": "Guard broken"
+    },
+    {
+      "k": "ui.prompt.ladder_up",
+      "v": "{0} — Climb up"
+    },
+    {
+      "k": "ui.prompt.ladder_down",
+      "v": "{0} — Climb down"
+    },
+    {
+      "k": "ui.prompt.skip",
+      "v": "{0} — Skip"
+    },
+    {
+      "k": "ui.action.jump",
+      "v": "Jump"
+    },
+    {
+      "k": "ui.action.interact",
+      "v": "Interact"
+    },
+    {
+      "k": "ui.action.style_shield",
+      "v": "Sword and shield"
+    },
+    {
+      "k": "ui.action.style_sword",
+      "v": "Sword alone"
+    },
+    {
+      "k": "ui.lang.label",
+      "v": "Language"
+    },
+    {
+      "k": "ui.lang.ka",
+      "v": "ქართული"
+    },
+    {
+      "k": "ui.lang.en",
+      "v": "English"
+    },
+    {
+      "k": "ui.settings.title",
+      "v": "Settings"
+    },
+    {
+      "k": "ui.settings.tab.game",
+      "v": "Game"
+    },
+    {
+      "k": "ui.settings.tab.controls",
+      "v": "Controls"
+    },
+    {
+      "k": "ui.settings.tab.display",
+      "v": "Display"
+    },
+    {
+      "k": "ui.settings.tab.audio",
+      "v": "Audio"
+    },
+    {
+      "k": "ui.settings.tab.access",
+      "v": "Accessibility"
+    },
+    {
+      "k": "ui.settings.difficulty",
+      "v": "Difficulty"
+    },
+    {
+      "k": "ui.settings.difficulty.pilgrim",
+      "v": "Pilgrim"
+    },
+    {
+      "k": "ui.settings.difficulty.aznauri",
+      "v": "Aznauri"
+    },
+    {
+      "k": "ui.settings.difficulty.monaspa",
+      "v": "Monaspa"
+    },
+    {
+      "k": "ui.settings.difficulty.didgori",
+      "v": "Didgori"
+    },
+    {
+      "k": "ui.settings.language.text",
+      "v": "Text language"
+    },
+    {
+      "k": "ui.settings.language.voice",
+      "v": "Voice language"
+    },
+    {
+      "k": "ui.settings.subtitles",
+      "v": "Subtitles"
+    },
+    {
+      "k": "ui.settings.subtitles.size",
+      "v": "Subtitle size"
+    },
+    {
+      "k": "ui.settings.subtitles.speaker",
+      "v": "Speaker names"
+    },
+    {
+      "k": "ui.settings.subtitles.background",
+      "v": "Subtitle background"
+    },
+    {
+      "k": "ui.settings.size.small",
+      "v": "Small"
+    },
+    {
+      "k": "ui.settings.size.medium",
+      "v": "Medium"
+    },
+    {
+      "k": "ui.settings.size.large",
+      "v": "Large"
+    },
+    {
+      "k": "ui.settings.on",
+      "v": "On"
+    },
+    {
+      "k": "ui.settings.off",
+      "v": "Off"
+    },
+    {
+      "k": "ui.settings.reduced",
+      "v": "Reduced"
+    },
+    {
+      "k": "ui.settings.full",
+      "v": "Full"
+    },
+    {
+      "k": "ui.settings.volume.master",
+      "v": "Master volume"
+    },
+    {
+      "k": "ui.settings.volume.dialogue",
+      "v": "Dialogue"
+    },
+    {
+      "k": "ui.settings.volume.music",
+      "v": "Music"
+    },
+    {
+      "k": "ui.settings.volume.effects",
+      "v": "Effects"
+    },
+    {
+      "k": "ui.settings.volume.ambience",
+      "v": "Ambience"
+    },
+    {
+      "k": "ui.settings.dialogue_boost",
+      "v": "Dialogue boost"
+    },
+    {
+      "k": "ui.settings.mono",
+      "v": "Mono audio"
+    },
+    {
+      "k": "ui.settings.camera_shake",
+      "v": "Camera shake"
+    },
+    {
+      "k": "ui.settings.flashes",
+      "v": "Flashes"
+    },
+    {
+      "k": "ui.settings.flashes.note",
+      "v": "Tones down flashes of light, for sensitive eyes and photosensitive epilepsy."
+    },
+    {
+      "k": "ui.settings.gore",
+      "v": "Blood and wounds"
+    },
+    {
+      "k": "ui.settings.slow_motion",
+      "v": "Slow motion"
+    },
+    {
+      "k": "ui.settings.motion_blur",
+      "v": "Motion blur"
+    },
+    {
+      "k": "ui.settings.hud",
+      "v": "HUD"
+    },
+    {
+      "k": "ui.settings.sound_cues",
+      "v": "Visual sound cues"
+    },
+    {
+      "k": "ui.settings.parry_window",
+      "v": "Parry window"
+    },
+    {
+      "k": "ui.settings.lock_sticky",
+      "v": "Lock-on stickiness"
+    },
+    {
+      "k": "ui.settings.invert_x",
+      "v": "Invert horizontal"
+    },
+    {
+      "k": "ui.settings.invert_y",
+      "v": "Invert vertical"
+    },
+    {
+      "k": "ui.settings.sensitivity",
+      "v": "Look sensitivity"
+    },
+    {
+      "k": "ui.settings.hold_toggle",
+      "v": "Hold or toggle"
+    },
+    {
+      "k": "ui.settings.hold",
+      "v": "Hold"
+    },
+    {
+      "k": "ui.settings.toggle",
+      "v": "Toggle"
+    },
+    {
+      "k": "ui.settings.rebind",
+      "v": "Rebind controls"
+    },
+    {
+      "k": "ui.settings.rebind.prompt",
+      "v": "Press a new key…"
+    },
+    {
+      "k": "ui.settings.rebind.conflict",
+      "v": "That key is already used: {0}"
+    },
+    {
+      "k": "ui.settings.defaults",
+      "v": "Restore defaults"
+    },
+    {
+      "k": "ui.settings.apply",
+      "v": "Apply"
+    },
+    {
+      "k": "ui.title.press",
+      "v": "Press any button"
+    },
+    {
+      "k": "ui.main.start",
+      "v": "Begin the battle"
+    },
+    {
+      "k": "ui.main.language",
+      "v": "Language"
+    },
+    {
+      "k": "ui.main.credits",
+      "v": "Credits"
+    },
+    {
+      "k": "ui.main.version",
+      "v": "Version {0}"
+    },
+    {
+      "k": "ui.confirm.yes",
+      "v": "Yes"
+    },
+    {
+      "k": "ui.confirm.no",
+      "v": "No"
+    },
+    {
+      "k": "ui.inv.tab.equipment",
+      "v": "Equipment"
+    },
+    {
+      "k": "ui.inv.tab.provisions",
+      "v": "Provisions"
+    },
+    {
+      "k": "ui.inv.tab.books",
+      "v": "Books"
+    },
+    {
+      "k": "ui.inv.tab.materials",
+      "v": "Materials"
+    },
+    {
+      "k": "ui.inv.tab.saddlebags",
+      "v": "Lurja's saddlebags"
+    },
+    {
+      "k": "ui.inv.group.weapons",
+      "v": "Weapons"
+    },
+    {
+      "k": "ui.inv.group.armour",
+      "v": "Armour and clothing"
+    },
+    {
+      "k": "ui.inv.group.belt",
+      "v": "On the belt"
+    },
+    {
+      "k": "ui.slot.main_a",
+      "v": "First weapon"
+    },
+    {
+      "k": "ui.slot.main_b",
+      "v": "Second weapon"
+    },
+    {
+      "k": "ui.slot.shield",
+      "v": "Shield"
+    },
+    {
+      "k": "ui.slot.bow",
+      "v": "Bow"
+    },
+    {
+      "k": "ui.slot.quiver",
+      "v": "Quiver"
+    },
+    {
+      "k": "ui.slot.head",
+      "v": "Head"
+    },
+    {
+      "k": "ui.slot.body",
+      "v": "Body"
+    },
+    {
+      "k": "ui.slot.hands",
+      "v": "Hands"
+    },
+    {
+      "k": "ui.slot.legs",
+      "v": "Legs"
+    },
+    {
+      "k": "ui.slot.feet",
+      "v": "Feet"
+    },
+    {
+      "k": "ui.slot.cloak",
+      "v": "Cloak"
+    },
+    {
+      "k": "ui.slot.belt",
+      "v": "Belt {0}"
+    },
+    {
+      "k": "ui.slot.empty",
+      "v": "Empty"
+    },
+    {
+      "k": "ui.stat.damage",
+      "v": "Damage"
+    },
+    {
+      "k": "ui.stat.poise",
+      "v": "Poise"
+    },
+    {
+      "k": "ui.stat.speed",
+      "v": "Speed"
+    },
+    {
+      "k": "ui.stat.reach",
+      "v": "Reach"
+    },
+    {
+      "k": "ui.stat.value",
+      "v": "Value"
+    },
+    {
+      "k": "ui.stat.weight",
+      "v": "Weight"
+    },
+    {
+      "k": "ui.inv.equipped",
+      "v": "Equipped"
+    },
+    {
+      "k": "ui.inv.equip",
+      "v": "Equip"
+    },
+    {
+      "k": "ui.inv.inspect",
+      "v": "Inspect"
+    },
+    {
+      "k": "ui.inv.drop",
+      "v": "Put down"
+    },
+    {
+      "k": "ui.inv.use",
+      "v": "Use"
+    },
+    {
+      "k": "ui.inv.silver",
+      "v": "{0} drahkani"
+    },
+    {
+      "k": "ui.inv.load",
+      "v": "Load {0} / {1}"
+    },
+    {
+      "k": "ui.inv.carried",
+      "v": "On his back"
+    },
+    {
+      "k": "ui.qb.arrows",
+      "v": "Arrows: {0}"
+    },
+    {
+      "k": "ui.prompt.take",
+      "v": "Take"
+    },
+    {
+      "k": "ui.prompt.sit",
+      "v": "Sit"
+    },
+    {
+      "k": "ui.prompt.drink",
+      "v": "Drink"
+    },
+    {
+      "k": "ui.prompt.read_now",
+      "v": "Read now"
+    },
+    {
+      "k": "ui.prompt.keep",
+      "v": "Keep"
+    },
+    {
+      "k": "ui.prompt.too_dark",
+      "v": "Too dark"
+    },
+    {
+      "k": "ui.prompt.open",
+      "v": "Open"
+    },
+    {
+      "k": "ui.shop.browse",
+      "v": "Look around"
+    },
+    {
+      "k": "ui.shop.ledger",
+      "v": "Ledger"
+    },
+    {
+      "k": "ui.shop.leave",
+      "v": "Leave"
+    },
+    {
+      "k": "ui.shop.buy",
+      "v": "Buy"
+    },
+    {
+      "k": "ui.shop.sell",
+      "v": "Sell"
+    },
+    {
+      "k": "ui.shop.whet",
+      "v": "Whet"
+    },
+    {
+      "k": "ui.shop.haggle",
+      "v": "Haggle"
+    },
+    {
+      "k": "ui.shop.price",
+      "v": "Price"
+    },
+    {
+      "k": "ui.shop.received",
+      "v": "Received"
+    },
+    {
+      "k": "ui.shop.equip_now",
+      "v": "Equip now"
+    },
+    {
+      "k": "ui.shop.paid",
+      "v": "Paid {0} drahkani"
+    },
+    {
+      "k": "ui.shop.haggle.note",
+      "v": "Once per item each visit. If it fails, {0} won't come down for a day."
+    },
+    {
+      "k": "ui.fx.health",
+      "v": "Health +{0} over {1} s"
+    },
+    {
+      "k": "ui.fx.use_time",
+      "v": "Takes {0} s"
+    },
+    {
+      "k": "ui.book.read",
+      "v": "Read"
+    },
+    {
+      "k": "ui.book.reread",
+      "v": "Can be read again"
+    },
+    {
+      "k": "ui.inv.vs",
+      "v": "vs {0}"
+    },
+    {
+      "k": "ui.menu.main_menu",
+      "v": "Main menu"
+    },
+    {
+      "k": "ui.confirm.main_menu.title",
+      "v": "Leave the battle?"
+    },
+    {
+      "k": "ui.confirm.main_menu.body",
+      "v": "You return to the main menu. This fight will not be saved."
+    },
+    {
+      "k": "ui.settings.quality",
+      "v": "Graphics quality"
+    },
+    {
+      "k": "ui.settings.quality.low",
+      "v": "Low"
+    },
+    {
+      "k": "ui.settings.quality.medium",
+      "v": "Medium"
+    },
+    {
+      "k": "ui.settings.quality.high",
+      "v": "High"
+    },
+    {
+      "k": "ui.settings.quality.ultra",
+      "v": "Ultra"
+    },
+    {
+      "k": "ui.settings.vsync",
+      "v": "Vertical sync"
+    },
+    {
+      "k": "ui.settings.fullscreen",
+      "v": "Full screen"
+    },
+    {
+      "k": "ui.prompt.change",
+      "v": "Change"
+    },
+    {
+      "k": "ui.prompt.tabs",
+      "v": "Tabs"
+    },
+    {
+      "k": "ui.loading",
+      "v": "Loading…"
+    }
+  ]
+}

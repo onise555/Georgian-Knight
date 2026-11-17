@@ -1,0 +1,90 @@
+# ---------------------------------------------------------------
+# Georgian Knight — Unity 6 (6000.0.74f1, URP)
+# ---------------------------------------------------------------
+
+# Unity-generated (rebuilt on open)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]uild*/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+
+# IDE / solution files (Unity regenerates these)
+*.csproj
+*.sln
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vscode/
+.idea/
+.consulo/
+
+# Unity crash / system output
+sysinfo.txt
+crashlytics-build.properties
+mono_crash.*
+*.apk
+*.aab
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------
+
+# GKBridge: file bridge run output (frames, films, mp4s, logs, request.txt)
+/GKBridge/
+
+# Rendered videos
+/Exports/
+
+# Film pipeline work area (renders, review builds, reports); only Director-approved
+# versions in Film/Approved/ are tracked (mp4/mov/wav go to LFS via .gitattributes)
+/Film/*
+!/Film/Approved/
+
+# Downloaded raw assets (re-downloadable)
+/AssetDownloads/
+/MixamoDownloads/
+/ContentSource/mpfb_packs/
+/Tools/rokoko_addon/
+
+# Old backups / caches / quarantine (stay on disk, not in git)
+/_backup/
+/_staging_quarantine/
+/GKCache/
+/ContentSource/backup/
+*.bak
+*.bak_*
+
+# Blender auto-backups (.blend1, .blend2, ...)
+*.blend[0-9]
+*.blend[0-9][0-9]
+
+# Python
+__pycache__/
+*.pyc
+
+# API keys for the MCP servers — NEVER commit
+/Tools/*/token.txt
+token.txt
+*.token
+.env

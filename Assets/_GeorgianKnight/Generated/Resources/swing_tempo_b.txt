@@ -1,0 +1,16 @@
+# Swing tempo B (A/B for the Director): per attack, the speed factor that brings the world-space tip peak to ~33 m/s
+# (QUALITY 3c ceiling ~35). Measured by swingqa base_s1 / base_s2, 2026-10-30, at 60 fps vs a standing foe at 1.8 m.
+# name factor peak_m_s
+C_H1_PowerSlash 0.994 33.2
+C_H2_CrossSlash 0.737 44.8
+C_H3_LowSweep 0.846 39.0
+C_L1_High 0.692 47.7
+C_L2_Downward 0.616 53.6
+C_L3_Combo 0.740 44.6
+C_ShieldBash 1.000 19.7
+S_H2_CrossSlash 0.641 51.5
+S_H3_LowSweep 0.641 51.5
+S_L0_Cut 0.578 57.1
+S_L1_High 0.657 50.2
+S_L2_Downward 0.584 56.5
+X_Kick 1.000 13.7

@@ -1,0 +1,37 @@
+{
+  "entries": [
+    { "k": "bark.hero.warcry.01", "v": "წინ!" },
+    { "k": "bark.hero.warcry.02", "v": "ჯვარი და წმიდა გიორგი!" },
+    { "k": "bark.hero.warcry.03", "v": "ღმერთი ჩვენთან!" },
+    { "k": "bark.hero.warcry.04", "v": "ძმანო, მიეტევეთ!" },
+    { "k": "bark.hero.warcry.05", "v": "კლდეკარელი!" },
+
+    { "k": "bark.geo.forward", "v": "წინ!" },
+    { "k": "bark.geo.close_line", "v": "რიგი შეკარით!" },
+    { "k": "bark.geo.stand", "v": "ძმანო, დადეგით! ფეხი არ მოიცვალოთ!" },
+    { "k": "bark.geo.shields", "v": "ფარები მაღლა!" },
+    { "k": "bark.geo.left_man", "v": "მარცხნივ მდგომს ნუ მიატოვებ!" },
+    { "k": "bark.geo.lord_help", "v": "უფალო, შეგვეწიე!" },
+    { "k": "bark.geo.cross", "v": "ჯვარი ჩვენთანაა!" },
+    { "k": "bark.geo.wounded", "v": "დაჭრილია! გაიყვანეთ!" },
+    { "k": "bark.geo.they_run", "v": "ზურგი აქციეს! მისდიეთ!" },
+
+    { "k": "bark.kip.come", "v": "მოდით!" },
+    { "k": "bark.kip.shoot", "v": "ესროლეთ!" },
+    { "k": "bark.kip.hold", "v": "დადექით!" },
+    { "k": "bark.kip.heaven", "v": "ცაო!" },
+
+    { "k": "bark.trk.come", "v": "მოდი!" },
+    { "k": "bark.trk.strike", "v": "დაჰკარ!" },
+    { "k": "bark.trk.kill", "v": "მოკალით!" },
+    { "k": "bark.trk.loose", "v": "ისრები ესროლეთ!" },
+    { "k": "bark.trk.advance", "v": "წინ წადით!" },
+    { "k": "bark.trk.hold", "v": "შეაკავეთ!" },
+    { "k": "bark.trk.fall_back", "v": "უკან! გაიქეცით!" },
+
+    { "k": "bark.ara.advance", "v": "წინ!" },
+    { "k": "bark.ara.charge", "v": "შეუტიეთ!" },
+    { "k": "bark.ara.takbir", "v": "ღმერთი უდიდესია!" },
+    { "k": "bark.ara.rally", "v": "ჩემთან, ასადელნო!" }
+  ]
+}

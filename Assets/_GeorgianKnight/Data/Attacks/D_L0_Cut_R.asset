@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: D_L0_Cut_R
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: KI_Attack1H_R
+  clip: {fileID: 1252655228507342282, guid: ef751e951ed91ed4fbc94d82726c9eed, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.1
+  fadeIn: 0.16
+  hitStart: 0.257
+  windupSpeed: 1.3425925
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.342
+  cutDir: {x: -0.88295734, y: 0.055147626, z: 0.46620286}
+  cuts: []
+  comboWindow: 0.36200002
+  dodgeCancel: 0.402
+  end: 0.88
+  steerUntil: 0.19275
+  damage: 14
+  poiseDamage: 10
+  staminaCost: 6
+  unblockable: 0
+  guardBreak: 0
+  reaction: 1
+  knockback: 1.1
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.06
+  shake: 0.25
+  warpMaxDistance: 2.6
+  idealRange: 1.696
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: ce59709652dcde242bda10a9c1249aea, type: 2}
+  nextHeavy: {fileID: 11400000, guid: d3e80523b15fa424985410566a3a49ee, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 1
+  pairedVictim: 1

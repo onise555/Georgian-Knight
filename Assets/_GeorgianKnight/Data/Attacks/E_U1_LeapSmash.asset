@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: E_U1_LeapSmash
+  m_EditorClassIdentifier: 
+  kind: 1
+  state: SS_Jump_Attack
+  clip: {fileID: -203655887218126122, guid: be334246ff156c74fb1c587d795e3c23, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 0.9
+  fadeIn: 0.08
+  hitStart: 0.348
+  windupSpeed: 0.82857156
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.398
+  cutDir: {x: 0.33499306, y: -0.9410068, z: -0.047810566}
+  cuts: []
+  comboWindow: 0.458
+  dodgeCancel: 0.458
+  end: 0.5966667
+  steerUntil: 0.26099998
+  damage: 34
+  poiseDamage: 60
+  staminaCost: 20
+  unblockable: 1
+  guardBreak: 0
+  reaction: 4
+  knockback: 2.4
+  hyperArmor: 1
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.1
+  shake: 0.5
+  warpMaxDistance: 4
+  idealRange: 1.78
+  maxWarpSpeed: 9
+  nextLight: {fileID: 0}
+  nextHeavy: {fileID: 0}
+  nextLightVia: {fileID: 0}
+  offHand: 0.85
+  pairedVictim: 1

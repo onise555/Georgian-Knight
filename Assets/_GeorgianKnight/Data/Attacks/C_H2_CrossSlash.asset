@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: C_H2_CrossSlash
+  m_EditorClassIdentifier: 
+  kind: 1
+  state: SS_Cross_Slash
+  clip: {fileID: -203655887218126122, guid: e90305ec0a1e11e4380c3e4f153947f4, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.1
+  fadeIn: 0.18
+  hitStart: 0.434
+  windupSpeed: 1.4
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.484
+  cutDir: {x: 0.810805, y: 0.55452377, z: 0.18734616}
+  cuts: []
+  comboWindow: 0.54399997
+  dodgeCancel: 0.54399997
+  end: 0.9
+  steerUntil: 0.32549998
+  damage: 34
+  poiseDamage: 40
+  staminaCost: 18
+  unblockable: 0
+  guardBreak: 0
+  reaction: 2
+  knockback: 2
+  hyperArmor: 1
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.09
+  shake: 0.4
+  warpMaxDistance: 2.6
+  idealRange: 1.451
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: 94ea94e432f75ef4db659c19ad1bc6f6, type: 2}
+  nextHeavy: {fileID: 11400000, guid: 8260bec11f01926488e909f254d49e13, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0
+  pairedVictim: 1

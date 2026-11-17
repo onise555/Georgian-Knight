@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: C_H1_PowerSlash
+  m_EditorClassIdentifier: 
+  kind: 1
+  state: SS_Power_Slash
+  clip: {fileID: -203655887218126122, guid: e5936a7b086771043936c926329f3421, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.05
+  fadeIn: 0.18
+  hitStart: 0.601
+  windupSpeed: 1.4
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.7083333
+  cutDir: {x: 0.054947533, y: -0.91581255, z: 0.39782938}
+  cuts: []
+  comboWindow: 0.7683333
+  dodgeCancel: 0.7683333
+  end: 0.97
+  steerUntil: 0.45075
+  damage: 40
+  poiseDamage: 50
+  staminaCost: 22
+  unblockable: 0
+  guardBreak: 0
+  reaction: 2
+  knockback: 2.2
+  hyperArmor: 1
+  chargeable: 1
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.1
+  shake: 0.5
+  warpMaxDistance: 2.6
+  idealRange: 1.36
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: 5f0ee00f72934ce4db1a1b60cb799255, type: 2}
+  nextHeavy: {fileID: 11400000, guid: b550ad8f5d1113045890b60ffd618bb1, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0
+  pairedVictim: 1

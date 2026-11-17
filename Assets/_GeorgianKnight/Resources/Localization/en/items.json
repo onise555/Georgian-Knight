@@ -1,0 +1,676 @@
+{
+  "entries": [
+    {
+      "k": "item.sword_georgian.name",
+      "v": "The Heirloom of Kldekari"
+    },
+    {
+      "k": "item.sword_georgian.desc",
+      "v": "Grigol Kldekareli's sword. Brass wire in the fuller reads ✠ ႵႤ ႸႤ ✠, \"Christ, have mercy\". The house kept two things: the tower and this."
+    },
+    {
+      "k": "item.sword_monaspa.name",
+      "v": "Monaspa sword"
+    },
+    {
+      "k": "item.sword_monaspa.desc",
+      "v": "The royal guard's double-edged sword, forged to one pattern: the monaspa must look as one."
+    },
+    {
+      "k": "item.sword_frankish.name",
+      "v": "Frankish sword"
+    },
+    {
+      "k": "item.sword_frankish.desc",
+      "v": "A broad blade and a straight crossguard. It came from Antioch; heavy, but it opens a shield."
+    },
+    {
+      "k": "item.sabre_kipchak.name",
+      "v": "Kipchak sabre"
+    },
+    {
+      "k": "item.sabre_kipchak.desc",
+      "v": "A lightly curved blade for cutting from the saddle. Kipchaks wrap the grip in horsehair."
+    },
+    {
+      "k": "item.mace_flanged.name",
+      "v": "Flanged mace"
+    },
+    {
+      "k": "item.mace_flanged.desc",
+      "v": "Iron flanges crack mail and lamellar alike. It needn't be sharp."
+    },
+    {
+      "k": "item.axe_war.name",
+      "v": "War axe"
+    },
+    {
+      "k": "item.axe_war.desc",
+      "v": "A highlander's axe: one winter it splits firewood, the next, shields."
+    },
+    {
+      "k": "item.spear_infantry.name",
+      "v": "Infantry spear"
+    },
+    {
+      "k": "item.spear_infantry.desc",
+      "v": "An ash shaft and a leaf-shaped head. It means more in a line than in a hand."
+    },
+    {
+      "k": "item.bow_composite.name",
+      "v": "Kipchak composite bow"
+    },
+    {
+      "k": "item.bow_composite.desc",
+      "v": "Horn, wood and sinew, glued; it hates damp. Its case hangs on the left hip."
+    },
+    {
+      "k": "item.dagger_satevari.name",
+      "v": "Dagger (satevari)"
+    },
+    {
+      "k": "item.dagger_satevari.desc",
+      "v": "A short double-edged dagger. It is in the hand before the sword is drawn."
+    },
+    {
+      "k": "item.javshani_lamellar.name",
+      "v": "Lamellar"
+    },
+    {
+      "k": "item.javshani_lamellar.desc",
+      "v": "Hundreds of iron plates laced in rows with rawhide. When one breaks, the rest hold."
+    },
+    {
+      "k": "item.javshani_banded.name",
+      "v": "Tevdore's lamellar"
+    },
+    {
+      "k": "item.javshani_banded.desc",
+      "v": "Banded, riveted lamellar, as the warrior saints wear it in the churches of Svaneti."
+    },
+    {
+      "k": "item.mail_hauberk.name",
+      "v": "Mail hauberk"
+    },
+    {
+      "k": "item.mail_hauberk.desc",
+      "v": "Riveted rings to the knee. It turns a cut, not a blow: wear padding under it."
+    },
+    {
+      "k": "item.jacket_quilted.name",
+      "v": "Quilted jacket"
+    },
+    {
+      "k": "item.jacket_quilted.desc",
+      "v": "Two layers of linen with cotton or wool between. A townsman's armour and a soldier's underlayer."
+    },
+    {
+      "k": "item.kaba_wool.name",
+      "v": "Wool qaba"
+    },
+    {
+      "k": "item.kaba_wool.desc",
+      "v": "A front-opening wool coat, slit for the saddle."
+    },
+    {
+      "k": "item.kaftan_monaspa.name",
+      "v": "Monaspa Crimson"
+    },
+    {
+      "k": "item.kaftan_monaspa.desc",
+      "v": "A madder-crimson coat over lamellar. The whole guard wears one colour: from afar, everyone knows whose they are."
+    },
+    {
+      "k": "item.cloak_fur.name",
+      "v": "Fur cloak"
+    },
+    {
+      "k": "item.cloak_fur.desc",
+      "v": "A hide cloak, fur inside. Kakhaber sleeps in his; nobody asks to borrow it."
+    },
+    {
+      "k": "item.helmet_spangenhelm.name",
+      "v": "Segmented helmet"
+    },
+    {
+      "k": "item.helmet_spangenhelm.desc",
+      "v": "A helmet riveted from segments, with a mail curtain over the neck."
+    },
+    {
+      "k": "item.helmet_conical.name",
+      "v": "Conical helmet"
+    },
+    {
+      "k": "item.helmet_conical.desc",
+      "v": "Raised from a single piece of iron. A blow slides off the point."
+    },
+    {
+      "k": "item.bracers_lamellar.name",
+      "v": "Splinted vambraces"
+    },
+    {
+      "k": "item.bracers_lamellar.desc",
+      "v": "Iron strips on leather, laced round the forearm."
+    },
+    {
+      "k": "item.leggings_mail.name",
+      "v": "Mail leggings"
+    },
+    {
+      "k": "item.leggings_mail.desc",
+      "v": "Mail for the legs, when the shield is high."
+    },
+    {
+      "k": "item.boots_leather.name",
+      "v": "Leather boots"
+    },
+    {
+      "k": "item.boots_leather.desc",
+      "v": "Tall riding boots. In snow they last two days; on the third your feet find out."
+    },
+    {
+      "k": "item.shield_kite.name",
+      "v": "Long shield"
+    },
+    {
+      "k": "item.shield_kite.desc",
+      "v": "A long shield that covers a rider to the knee. Bakur's bears the gold vine cross on black."
+    },
+    {
+      "k": "item.shield_round.name",
+      "v": "Round shield"
+    },
+    {
+      "k": "item.shield_round.desc",
+      "v": "A round, hide-faced shield. Handier in a lane than a long one."
+    },
+    {
+      "k": "item.amulet_pectoral_cross.name",
+      "v": "Mother's enkolpion"
+    },
+    {
+      "k": "item.amulet_pectoral_cross.desc",
+      "v": "A bronze cross of two hinged halves. Inside is something holy his mother never told him about."
+    },
+    {
+      "k": "item.ring_carnelian.name",
+      "v": "Father's ring"
+    },
+    {
+      "k": "item.ring_carnelian.desc",
+      "v": "A carnelian ring with a cut sign. He pressed it into the wax when his name was not on the list."
+    },
+    {
+      "k": "item.bread_tone.name",
+      "v": "Tone bread"
+    },
+    {
+      "k": "item.bread_tone.desc",
+      "v": "Baked on the wall of a clay oven, eaten hot."
+    },
+    {
+      "k": "item.cheese_sheep.name",
+      "v": "Sheep's cheese"
+    },
+    {
+      "k": "item.cheese_sheep.desc",
+      "v": "Trialeti shepherds' cheese, kept in brine."
+    },
+    {
+      "k": "item.wine_saperavi.name",
+      "v": "Red wine"
+    },
+    {
+      "k": "item.wine_saperavi.desc",
+      "v": "Kakhetian red in a wineskin. In Lent, only on Saturdays and Sundays."
+    },
+    {
+      "k": "item.churchkhela.name",
+      "v": "Churchkhela"
+    },
+    {
+      "k": "item.churchkhela.desc",
+      "v": "Walnuts on a thread, dipped in thickened grape must."
+    },
+    {
+      "k": "item.pomegranate.name",
+      "v": "Pomegranate"
+    },
+    {
+      "k": "item.pomegranate.desc",
+      "v": "From the city's gardens, picked before the siege."
+    },
+    {
+      "k": "item.honey_jar.name",
+      "v": "Honey"
+    },
+    {
+      "k": "item.honey_jar.desc",
+      "v": "In a clay pot. In war, honey goes on wounds too."
+    },
+    {
+      "k": "item.herb_yarrow.name",
+      "v": "Yarrow"
+    },
+    {
+      "k": "item.herb_yarrow.desc",
+      "v": "It stops blood, Bakur's mother used to say."
+    },
+    {
+      "k": "item.herb_stjohnswort.name",
+      "v": "St John's wort"
+    },
+    {
+      "k": "item.herb_stjohnswort.desc",
+      "v": "Steeped in oil, it heals wounds."
+    },
+    {
+      "k": "item.herb_savory.name",
+      "v": "Savory"
+    },
+    {
+      "k": "item.herb_savory.desc",
+      "v": "Lentil stew wants savory, says Giorgi the Cook."
+    },
+    {
+      "k": "item.bandage_linen.name",
+      "v": "Linen bandage"
+    },
+    {
+      "k": "item.bandage_linen.desc",
+      "v": "Boiled linen. Clean, which in a camp is rare."
+    },
+    {
+      "k": "item.salve_wound.name",
+      "v": "Wound salve"
+    },
+    {
+      "k": "item.salve_wound.desc",
+      "v": "Wax, honey and herbs. Eliezer says the wax keeps the air out of a wound."
+    },
+    {
+      "k": "item.ration_pack.name",
+      "v": "Road rations"
+    },
+    {
+      "k": "item.ration_pack.desc",
+      "v": "Bread, cheese, dried fruit and an onion, wrapped in cloth."
+    },
+    {
+      "k": "item.whetstone.name",
+      "v": "Whetstone"
+    },
+    {
+      "k": "item.whetstone.desc",
+      "v": "A grey stone that hangs from the belt. A few strokes before a fight and the edge bites again."
+    },
+    {
+      "k": "item.book_sword_riposte.name",
+      "v": "The Sword's Answer"
+    },
+    {
+      "k": "item.book_sword_riposte.desc",
+      "v": "An old monaspa master's notes."
+    },
+    {
+      "k": "item.book_shield_wall.name",
+      "v": "The Shield Wall"
+    },
+    {
+      "k": "item.book_shield_wall.desc",
+      "v": "A book of the line."
+    },
+    {
+      "k": "item.book_kipchak_archery.name",
+      "v": "The Steppe Bow"
+    },
+    {
+      "k": "item.book_kipchak_archery.desc",
+      "v": "Kipchak archery, written down in Georgian."
+    },
+    {
+      "k": "item.book_didgori_cry.name",
+      "v": "The Cry of Didgori"
+    },
+    {
+      "k": "item.book_didgori_cry.desc",
+      "v": "Written the day after the battle."
+    },
+    {
+      "k": "item.book_karabadini.name",
+      "v": "The Peerless Karabadini"
+    },
+    {
+      "k": "item.book_karabadini.desc",
+      "v": "A Georgian book of healing."
+    },
+    {
+      "k": "item.book_strategikon.name",
+      "v": "The Strategikon"
+    },
+    {
+      "k": "item.book_strategikon.desc",
+      "v": "A Greek book of war."
+    },
+    {
+      "k": "item.arrow_bodkin.name",
+      "v": "Bodkin arrow"
+    },
+    {
+      "k": "item.arrow_bodkin.desc",
+      "v": "A narrow four-sided head, made for a mail ring."
+    },
+    {
+      "k": "item.icon_st_george.name",
+      "v": "Icon of St George"
+    },
+    {
+      "k": "item.icon_st_george.desc",
+      "v": "In a chased silver frame. The host carries such icons before it."
+    },
+    {
+      "k": "item.glazed_bowl.name",
+      "v": "Glazed bowl"
+    },
+    {
+      "k": "item.glazed_bowl.desc",
+      "v": "A Tiflis potter's bowl with green glaze. Its potter is somewhere behind the wall."
+    },
+    {
+      "k": "item.keys_of_tbilisi.name",
+      "v": "The Keys of Tiflis"
+    },
+    {
+      "k": "item.keys_of_tbilisi.desc",
+      "v": "Keys on an iron ring. Heavier than they look."
+    },
+    {
+      "k": "item.letter_king_david.name",
+      "v": "The King's Letter"
+    },
+    {
+      "k": "item.letter_king_david.desc",
+      "v": "For Sioni's priest, under the king's seal. Bakur doesn't know what it says; he knows what he promised."
+    },
+    {
+      "k": "item.silk_bale.name",
+      "v": "Bale of silk"
+    },
+    {
+      "k": "item.silk_bale.desc",
+      "v": "City silk, packed under a merchant's mark: the same mark he saw on the envoys' bales."
+    },
+    {
+      "k": "item.book_sword_riposte.lore",
+      "v": "The first page: \"First receive, then return. Whoever tries both at once loses both.\""
+    },
+    {
+      "k": "item.book_shield_wall.lore",
+      "v": "The first page: \"Your shield guards the man on your left. His guards you.\""
+    },
+    {
+      "k": "item.book_kipchak_archery.lore",
+      "v": "The first page: \"The horse breathes out: you loose. One arrow does not need two breaths.\""
+    },
+    {
+      "k": "item.book_didgori_cry.lore",
+      "v": "The first page: \"A war cry is not for the enemy. It is for your own: so they hear you are still standing.\""
+    },
+    {
+      "k": "item.book_karabadini.lore",
+      "v": "An eleventh-century Georgian book of healing: herbs, oils, fevers and wounds."
+    },
+    {
+      "k": "item.sword_frankish.lore",
+      "v": "About a hundred Frankish knights stood in King David's host. They brought their own swords."
+    },
+    {
+      "k": "item.book_strategikon.lore",
+      "v": "A Greek book of war: how to fight horse-archers, and how not to chase them when they run."
+    },
+    {
+      "k": "shop.shop_camp_forge.name",
+      "v": "Vardan's Forge"
+    },
+    {
+      "k": "shop.shop_camp_forge.desc",
+      "v": "The camp's forge: swords, axes, spears and shields. Vardan sings while he hammers."
+    },
+    {
+      "k": "shop.vardan.greet.morning.1",
+      "v": "Good morning, Kldekareli. The forge is still cold. My hand isn't."
+    },
+    {
+      "k": "shop.vardan.greet.morning.2",
+      "v": "You're early. In winter even iron wakes slowly."
+    },
+    {
+      "k": "shop.vardan.greet.morning.3",
+      "v": "Come, come. Stand by the fire before we talk money."
+    },
+    {
+      "k": "shop.vardan.greet.evening.1",
+      "v": "Evening work has a bad name. But for you, I'll forge."
+    },
+    {
+      "k": "shop.vardan.greet.evening.2",
+      "v": "I'm named for Vardan Mamikonian. He lost his battle and kept his church. Not a bad trade."
+    },
+    {
+      "k": "shop.vardan.greet.evening.3",
+      "v": "Quickly, aznauri. I'm banking the forge."
+    },
+    {
+      "k": "shop.vardan.greet.low_renown.1",
+      "v": "Kldekareli. Got money? I sell to a traitor's son for money, like anyone."
+    },
+    {
+      "k": "shop.vardan.greet.low_renown.2",
+      "v": "People talk. Iron doesn't. What do you need?"
+    },
+    {
+      "k": "shop.vardan.greet.low_renown.3",
+      "v": "I saw your father's sword once. A good sword. Of the man I say nothing."
+    },
+    {
+      "k": "shop.vardan.greet.high_renown.1",
+      "v": "Your priest won't give me the bread. Your sword doesn't mind my steel."
+    },
+    {
+      "k": "shop.vardan.greet.high_renown.2",
+      "v": "Come. I've kept my best iron for you."
+    },
+    {
+      "k": "shop.vardan.greet.high_renown.3",
+      "v": "My brother still shoes the emir's horses in Ani. One day your king will want my brother's iron too."
+    },
+    {
+      "k": "shop.vardan.greet.after_junk.1",
+      "v": "That rusty axe you sold me last time, I couldn't even make a horseshoe of it."
+    },
+    {
+      "k": "shop.vardan.greet.after_junk.2",
+      "v": "What are you bringing today, Kldekareli? More rust?"
+    },
+    {
+      "k": "shop.vardan.greet.after_junk.3",
+      "v": "You took the money, I took the rust. We can't trade like that."
+    },
+    {
+      "k": "shop.vardan.inspect.sword_georgian.1",
+      "v": "Straight and double-edged, the way Georgians like it. The weight sits by the guard: the hand won't tire."
+    },
+    {
+      "k": "shop.vardan.inspect.sword_georgian.2",
+      "v": "I've rewound the grip in new linen. The old one smelled of blood."
+    },
+    {
+      "k": "shop.vardan.inspect.mace_flanged.1",
+      "v": "A mace doesn't need a clever man. It needs a strong one."
+    },
+    {
+      "k": "shop.vardan.inspect.mace_flanged.2",
+      "v": "A flange bends the lames, and under them the man's bone breaks."
+    },
+    {
+      "k": "shop.vardan.inspect.axe_war.1",
+      "v": "A highlander's axe. The haft is ash, not lime: it won't break."
+    },
+    {
+      "k": "shop.vardan.inspect.axe_war.2",
+      "v": "It hooks a shield and drags it down. Then the man is yours."
+    },
+    {
+      "k": "shop.vardan.inspect.spear_infantry.1",
+      "v": "A spear teaches two things: distance and patience."
+    },
+    {
+      "k": "shop.vardan.inspect.spear_infantry.2",
+      "v": "It's cheap, because a line needs many."
+    },
+    {
+      "k": "shop.vardan.inspect.dagger_satevari.1",
+      "v": "A dagger is the last word. The last word should be short."
+    },
+    {
+      "k": "shop.vardan.inspect.dagger_satevari.2",
+      "v": "Keep it in your boot. At night in camp, not everyone is a brother."
+    },
+    {
+      "k": "shop.vardan.inspect.shield_kite.1",
+      "v": "Riders love a long shield. On foot it's heavy, but it keeps you alive."
+    },
+    {
+      "k": "shop.vardan.inspect.shield_kite.2",
+      "v": "Hide stretched over twice. An arrow goes in halfway and stops."
+    },
+    {
+      "k": "shop.vardan.inspect.shield_round.1",
+      "v": "A round shield is for lanes: it needs no room to turn."
+    },
+    {
+      "k": "shop.vardan.inspect.shield_round.2",
+      "v": "The townsmen carry these. We'll see whose is better."
+    },
+    {
+      "k": "shop.vardan.haggle.accept.1",
+      "v": "Fine. The iron wants to go with you more than I want to keep it."
+    },
+    {
+      "k": "shop.vardan.haggle.accept.2",
+      "v": "So be it. I'll finish my song and regret it after."
+    },
+    {
+      "k": "shop.vardan.haggle.accept.3",
+      "v": "So be it. I beat the steel; I can't beat you."
+    },
+    {
+      "k": "shop.vardan.haggle.counter.1",
+      "v": "Neither yours nor mine."
+    },
+    {
+      "k": "shop.vardan.haggle.counter.2",
+      "v": "Put one silver on top and it's yours."
+    },
+    {
+      "k": "shop.vardan.haggle.counter.3",
+      "v": "Shall we shake on it? No. Money first."
+    },
+    {
+      "k": "shop.vardan.haggle.bakur.1",
+      "v": "I haven't that much in my purse, Vardan. I'll give you what I have."
+    },
+    {
+      "k": "shop.vardan.haggle.bakur.2",
+      "v": "The whole camp will see this and ask whose work it is. Count that in the price."
+    },
+    {
+      "k": "shop.vardan.haggle.bakur.3",
+      "v": "Half. I'll put it in your hand right now."
+    },
+    {
+      "k": "shop.vardan.haggle.refuse.1",
+      "v": "No. This iron came from the mountains of Armenia, not from your purse."
+    },
+    {
+      "k": "shop.vardan.haggle.refuse.2",
+      "v": "For half the price I'll give you half a sword. Want it?"
+    },
+    {
+      "k": "shop.vardan.haggle.refuse.3",
+      "v": "That price is lower than my singing. No."
+    },
+    {
+      "k": "shop.vardan.pay.small.1",
+      "v": "Copper on copper. A good sound."
+    },
+    {
+      "k": "shop.vardan.pay.small.2",
+      "v": "As much as it's worth. No more."
+    },
+    {
+      "k": "shop.vardan.pay.small.3",
+      "v": "Put it on the anvil. That's better."
+    },
+    {
+      "k": "shop.vardan.pay.large.1",
+      "v": "Silver! In this camp I guard silver like fire."
+    },
+    {
+      "k": "shop.vardan.pay.large.2",
+      "v": "You count it. I listen to the sound."
+    },
+    {
+      "k": "shop.vardan.pay.large.3",
+      "v": "For this you'd buy a horse. You chose a sword. Rightly."
+    },
+    {
+      "k": "shop.vardan.wrap.1",
+      "v": "I'll wrap it in cloth so the rust doesn't take it."
+    },
+    {
+      "k": "shop.vardan.wrap.2",
+      "v": "Try it. Cut the air. You see?"
+    },
+    {
+      "k": "shop.vardan.wrap.3",
+      "v": "Oil it every week. If you forget, the rust will remind you."
+    },
+    {
+      "k": "shop.vardan.farewell.1",
+      "v": "God make your sword true and your shield hold."
+    },
+    {
+      "k": "shop.vardan.farewell.2",
+      "v": "Come back alive. A dead buyer pays me nothing."
+    },
+    {
+      "k": "shop.vardan.farewell.3",
+      "v": "Go. The forge is calling me."
+    },
+    {
+      "k": "shop.vardan.working.1",
+      "v": "It's a sharakan, our hymn. It isn't like yours, but God hears both."
+    },
+    {
+      "k": "shop.vardan.working.2",
+      "v": "The hammer needs the song's beat. Without it the iron has doubts."
+    },
+    {
+      "k": "shop.vardan.working.3",
+      "v": "My father hammered like this in Ani. Exactly like this."
+    },
+    {
+      "k": "shop.vardan.closed.night.1",
+      "v": "It's night, Kldekareli. Even the iron sleeps."
+    },
+    {
+      "k": "shop.vardan.closed.night.2",
+      "v": "In the morning. My hand would slip now."
+    },
+    {
+      "k": "shop.vardan.closed.night.3",
+      "v": "…All right, come in. But you'll pay a fifth more."
+    }
+  ]
+}

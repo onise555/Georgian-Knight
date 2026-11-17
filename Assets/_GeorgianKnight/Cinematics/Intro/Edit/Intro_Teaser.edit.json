@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "project": "Intro_Teaser",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "aspect": "2.39",
+  "fonts": "Fonts",
+  "video": [
+    {
+      "shot": "S01_wide",
+      "src": "GKBridge/intro/frames",
+      "in": 0,
+      "out": 96,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 0
+    },
+    {
+      "shot": "S02_face",
+      "src": "GKBridge/intro/frames",
+      "in": 96,
+      "out": 180,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 96
+    },
+    {
+      "shot": "S03_draw",
+      "src": "GKBridge/intro/frames",
+      "in": 180,
+      "out": 270,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 180
+    },
+    {
+      "shot": "S04_seljuk",
+      "src": "GKBridge/intro/frames",
+      "in": 270,
+      "out": 339,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 270
+    },
+    {
+      "shot": "S05_ots",
+      "src": "GKBridge/intro/frames",
+      "in": 339,
+      "out": 399,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 339
+    },
+    {
+      "shot": "S06_title",
+      "src": "GKBridge/intro/frames",
+      "in": 399,
+      "out": 450,
+      "speed": 1.0,
+      "pattern": "%04d.png",
+      "first": 399
+    }
+  ],
+  "effects": [
+    {
+      "type": "fade_in",
+      "at": 0,
+      "frames": 30
+    },
+    {
+      "type": "dim",
+      "at": 396,
+      "frames": 21,
+      "opacity": 0.62
+    }
+  ],
+  "beats": [
+    192,
+    204,
+    213,
+    222
+  ],
+  "titles": {
+    "ka": "Edit/Intro_Teaser.ka.ass",
+    "en": "Edit/Intro_Teaser.en.ass"
+  },
+  "text": {
+    "strings": "ContentSource/loc/{lang}/film_intro_teaser.json",
+    "styles": {
+      "Title": {
+        "font": "Noto Serif Georgian",
+        "size": 148,
+        "color": "EED9A0",
+        "spacing": 4
+      },
+      "Subtitle": {
+        "font": "Noto Serif Georgian",
+        "size": 56,
+        "color": "E0E0E0",
+        "spacing": 1
+      },
+      "Place": {
+        "font": "Noto Serif Georgian",
+        "size": 38,
+        "color": "BBBBBB",
+        "spacing": 1
+      },
+      "VOSub": {
+        "font": "Noto Serif Georgian",
+        "size": 40,
+        "color": "F2F2F2",
+        "spacing": 0,
+        "outline": 1.5,
+        "shadow": 0
+      }
+    },
+    "lines": [
+      {
+        "key": "film.intro_teaser.title",
+        "style": "Title",
+        "at": 408,
+        "dur": 42,
+        "pos": [
+          960,
+          486
+        ],
+        "fade": [
+          18,
+          0
+        ]
+      },
+      {
+        "key": "film.intro_teaser.subtitle",
+        "style": "Subtitle",
+        "at": 417,
+        "dur": 33,
+        "pos": [
+          960,
+          602
+        ],
+        "fade": [
+          18,
+          0
+        ]
+      },
+      {
+        "key": "film.intro_teaser.place",
+        "style": "Place",
+        "at": 423,
+        "dur": 27,
+        "pos": [
+          960,
+          655
+        ],
+        "fade": [
+          15,
+          0
+        ]
+      },
+      {
+        "key": "film.intro_teaser.vo_01",
+        "style": "VOSub",
+        "langs": [
+          "en"
+        ],
+        "at": 24,
+        "dur": 66,
+        "pos": [
+          960,
+          880
+        ],
+        "fade": [
+          4,
+          4
+        ]
+      },
+      {
+        "key": "film.intro_teaser.vo_02",
+        "style": "VOSub",
+        "langs": [
+          "en"
+        ],
+        "at": 108,
+        "dur": 84,
+        "pos": [
+          960,
+          880
+        ],
+        "fade": [
+          4,
+          4
+        ]
+      }
+    ],
+    "langs": [
+      "ka",
+      "en"
+    ]
+  },
+  "audio": [
+    {
+      "bus": "MUS",
+      "src": "Audio/music.wav",
+      "at": 0,
+      "gain_db": 3.1
+    },
+    {
+      "bus": "AMB",
+      "src": "Audio/sfx_wind.wav",
+      "at": 0,
+      "gain_db": 3.5,
+      "fade_in": 45,
+      "fade_out": 60
+    },
+    {
+      "bus": "VO",
+      "src": "Audio/vo_1.wav",
+      "at": 24,
+      "gain_db": 3.9
+    },
+    {
+      "bus": "VO",
+      "src": "Audio/vo_2.wav",
+      "at": 108,
+      "gain_db": 3.9
+    },
+    {
+      "bus": "VO",
+      "src": "Audio/vo_3.wav",
+      "at": 371,
+      "gain_db": 4.1
+    },
+    {
+      "bus": "SFX",
+      "src": "Audio/sfx_draw.wav",
+      "at": 197,
+      "gain_db": 3.2
+    },
+    {
+      "bus": "SFX",
+      "src": "Audio/sfx_cry.wav",
+      "at": 270,
+      "gain_db": 3.5
+    },
+    {
+      "bus": "SFX",
+      "src": "Audio/sfx_boom.wav",
+      "at": 399,
+      "gain_db": 3.3
+    }
+  ],
+  "mix": {
+    "duck": {
+      "bus": "MUS",
+      "under": "VO",
+      "db": -6
+    },
+    "loudness": -14.6
+  },
+  "grade": {
+    "lut": null
+  },
+  "compare_mask_note": "Title typeface changed on purpose (Sylfaen drawtext -> Noto Serif Georgian ASS); the box covers the title block in the picture area",
+  "compare_mask": [
+    {
+      "shots": [
+        "S06_title"
+      ],
+      "box": [
+        300,
+        320,
+        1320,
+        260
+      ]
+    }
+  ]
+}

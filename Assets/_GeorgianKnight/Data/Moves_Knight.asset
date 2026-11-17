@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb12f7910202a8498bca8d3dca70e90, type: 3}
+  m_Name: Moves_Knight
+  m_EditorClassIdentifier: 
+  lightStart: {fileID: 11400000, guid: 23e2e54dfe811284daf77a1e2793a8df, type: 2}
+  heavyStart: {fileID: 11400000, guid: 09221deb1e6fe0245b40646c8c5bc663, type: 2}
+  groundBlow: {fileID: 0}
+  sprintAttack: {fileID: 11400000, guid: 8d854035a6143fc4cae6a989fbf09fea, type: 2}
+  riposte: {fileID: 11400000, guid: 5a8309a93f8af0441a82a03307f90333, type: 2}
+  kick: {fileID: 11400000, guid: 5c6aa29d306e74840a7795536c0e8aa9, type: 2}
+  execution: {fileID: 11400000, guid: f4e59948e6f9d92428f7e732ad638e6f, type: 2}
+  aiAttacks: []
+  aiUnblockables: []
+  dodge:
+    front:
+      state: GK_Roll_Stand
+      clip: {fileID: -203655887218126122, guid: 58c81cf644c59044e936ce405842d0a5, type: 3}
+      speed: 1.25
+      fadeIn: 0.06
+      end: 0.78
+      cancelFrom: 0.62
+      rootMotion: 1
+      iFrameStart: 0.06
+      iFrameEnd: 0.55
+      offHand: 0.7
+    back:
+      state: GK_Dodge_JumpBack
+      clip: {fileID: -203655887218126122, guid: 97c86aebb83a9b0479b1639d0174a14e, type: 3}
+      speed: 1.25
+      fadeIn: 0.06
+      end: 0.82
+      cancelFrom: 0.6
+      rootMotion: 1
+      iFrameStart: 0.05
+      iFrameEnd: 0.5
+      offHand: 0.7
+    left:
+      state: GK_Dodge_Left
+      clip: {fileID: -203655887218126122, guid: 2c75608e3cb37ca4c888bbacbe803b31, type: 3}
+      speed: 1.25
+      fadeIn: 0.06
+      end: 0.8
+      cancelFrom: 0.6
+      rootMotion: 1
+      iFrameStart: 0.05
+      iFrameEnd: 0.5
+      offHand: 0.9
+    right:
+      state: GK_Dodge_Right
+      clip: {fileID: -203655887218126122, guid: 77b40049508dcb44b944a983fca414c9, type: 3}
+      speed: 1.25
+      fadeIn: 0.06
+      end: 0.8
+      cancelFrom: 0.6
+      rootMotion: 1
+      iFrameStart: 0.05
+      iFrameEnd: 0.5
+      offHand: 0.9
+  blockHit:
+    state: BlockHit
+    clip: {fileID: -203655887218126122, guid: 508045db513b62d4c989fe329b86f051, type: 3}
+    speed: 1.2
+    fadeIn: 0.04
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  guardBreak:
+    state: SS_Unblocked_Impact_2
+    clip: {fileID: -203655887218126122, guid: e426a605f493467488d0b7d750c0bcad, type: 3}
+    speed: 1
+    fadeIn: 0.06
+    end: 0.88
+    cancelFrom: 0.8
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  parried:
+    state: SS_Blocked_Impact
+    clip: {fileID: -203655887218126122, guid: de70eda773235bf4b8687f0a185f41ce, type: 3}
+    speed: 0.9
+    fadeIn: 0.05
+    end: 0.92
+    cancelFrom: 0.85
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  blockRecoil:
+    state: SS_Blocked_Impact_2
+    clip: {fileID: -203655887218126122, guid: 508045db513b62d4c989fe329b86f051, type: 3}
+    speed: 1.3
+    fadeIn: 0.06
+    end: 0.7
+    cancelFrom: 0.5
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  hitLight:
+    front:
+      state: GK_HitS_Front
+      clip: {fileID: -203655887218126122, guid: 48a5826ca73cf3c4fb2e30753ff85ec8, type: 3}
+      speed: 1.15
+      fadeIn: 0.05
+      end: 0.75
+      cancelFrom: 0.55
+      rootMotion: 1
+      iFrameStart: 0
+      iFrameEnd: 0
+      offHand: 0
+    back:
+      state: GK_HitS_Back
+      clip: {fileID: -203655887218126122, guid: 9a8512ab9857aac49ab54dd6ea414308, type: 3}
+      speed: 1.15
+      fadeIn: 0.05
+      end: 0.75
+      cancelFrom: 0.55
+      rootMotion: 1
+      iFrameStart: 0
+      iFrameEnd: 0
+      offHand: 0
+    left:
+      state: GK_HitS_Left
+      clip: {fileID: -203655887218126122, guid: 69c3dd821368aeb4e9501e60909c4c00, type: 3}
+      speed: 1.15
+      fadeIn: 0.05
+      end: 0.75
+      cancelFrom: 0.55
+      rootMotion: 1
+      iFrameStart: 0
+      iFrameEnd: 0
+      offHand: 0
+    right:
+      state: GK_HitS_Right
+      clip: {fileID: -203655887218126122, guid: f1b7e699d5a43f04088388617f12d361, type: 3}
+      speed: 1.15
+      fadeIn: 0.05
+      end: 0.75
+      cancelFrom: 0.55
+      rootMotion: 1
+      iFrameStart: 0
+      iFrameEnd: 0
+      offHand: 0
+  hitHeavy:
+    state: GK_HitL_Front
+    clip: {fileID: -203655887218126122, guid: ea0c952d073a1bd45a40efc57494eae7, type: 3}
+    speed: 1.05
+    fadeIn: 0.05
+    end: 0.8
+    cancelFrom: 0.6
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  stagger:
+    state: SS_Unblocked_Impact
+    clip: {fileID: -203655887218126122, guid: 2fd58f825eec86044b3491415514f0e8, type: 3}
+    speed: 0.85
+    fadeIn: 0.06
+    end: 0.92
+    cancelFrom: 0.85
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  knockdown:
+    state: GK_KD_Back
+    clip: {fileID: -203655887218126122, guid: de96125d608da5b45be38d2641894c62, type: 3}
+    speed: 1.05
+    fadeIn: 0.06
+    end: 0.95
+    cancelFrom: 0.95
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  getUp:
+    state: GK_GetUp_Back
+    clip: {fileID: -203655887218126122, guid: 7cb1b37aefe4cd14788d2184581ecd67, type: 3}
+    speed: 1.15
+    fadeIn: 0.1
+    end: 0.9
+    cancelFrom: 0.8
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  executionVictim:
+    state: GK_Exec_Loser
+    clip: {fileID: -203655887218126122, guid: ccadf4f3ea60ec84898506418af78ffc, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.99
+    cancelFrom: 0.99
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  deaths:
+  - state: GK_Death_Fwd
+    clip: {fileID: -203655887218126122, guid: 15c92f91ca948a34b81c6c677d2a9afa, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  - state: GK_Death_Back
+    clip: {fileID: -203655887218126122, guid: fea8b9439d2045c4b8bcb167259c1099, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  - state: GK_Death_Left
+    clip: {fileID: -203655887218126122, guid: 427a335b16896984e9b97a5d6585b7c2, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  - state: GK_Death_Right
+    clip: {fileID: -203655887218126122, guid: 4e2fb09b3c82cef46b979cbb129339a8, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  - state: SS_Falling_Back_Death
+    clip: {fileID: -203655887218126122, guid: 39a1dc6cc8316e44f81305971ecce358, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.9
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  - state: SS_Falling_Forward_Death
+    clip: {fileID: -203655887218126122, guid: 7dd0118076c876840b788ce09414c4ad, type: 3}
+    speed: 1
+    fadeIn: 0.1
+    end: 0.92
+    cancelFrom: 0.9
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.85
+  warCry:
+    state: SS_Powering_Up
+    clip: {fileID: -203655887218126122, guid: 11ada31c44f206545a494c8cd7af2c02, type: 3}
+    speed: 1
+    fadeIn: 0.15
+    end: 0.9
+    cancelFrom: 0.85
+    rootMotion: 0
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  jump:
+    state: SS_Jump_From_Idle
+    clip: {fileID: -203655887218126122, guid: 9b1fd5fa468c3b74295c4bef445e9bf3, type: 3}
+    speed: 1.05
+    fadeIn: 0.08
+    end: 0.94
+    cancelFrom: 0.82
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  jumpRun:
+    state: SS_Running_Jump
+    clip: {fileID: -203655887218126122, guid: a46c57fe9db0e1349a1b161c59cdd52e, type: 3}
+    speed: 1
+    fadeIn: 0.06
+    end: 0.94
+    cancelFrom: 0.8
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  drawSword:
+    state: GK_Sword_Draw
+    clip: {fileID: -203655887218126122, guid: b170c29bacc80a547bd192b2d1a873e5, type: 3}
+    speed: 1.1
+    fadeIn: 0.15
+    end: 0.9
+    cancelFrom: 0.8
+    rootMotion: 0
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.6
+  sheathSword:
+    state: GK_Sword_Sheath
+    clip: {fileID: -203655887218126122, guid: e60883c9c48e814428a5f97d1fea4555, type: 3}
+    speed: 1.1
+    fadeIn: 0.15
+    end: 0.9
+    cancelFrom: 0.8
+    rootMotion: 0
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0.6
+  drawGrab: 0.46478873
+  sheatheRelease: 0.77227724
+  victory:
+    state: SS_Sword_Play_Idle
+    clip: {fileID: -203655887218126122, guid: 5f9bc8f091c69e94aae9ecace4d98801, type: 3}
+    speed: 1
+    fadeIn: 0.2
+    end: 0.98
+    cancelFrom: 0.98
+    rootMotion: 0
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  bowDraw:
+    state: 
+    clip: {fileID: 0}
+    speed: 1
+    fadeIn: 0.08
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  bowHold:
+    state: 
+    clip: {fileID: 0}
+    speed: 1
+    fadeIn: 0.08
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  bowLoose:
+    state: 
+    clip: {fileID: 0}
+    speed: 1
+    fadeIn: 0.08
+    end: 0.92
+    cancelFrom: 0.75
+    rootMotion: 1
+    iFrameStart: 0
+    iFrameEnd: 0
+    offHand: 0
+  bowFullDraw: 0.85
+  style: 0
+  blockIdleState: BlockIdle
+  offHandState: OffHandPose
+  offHandFree: 0
+  offHandBlock: 0

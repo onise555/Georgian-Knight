@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: C_L2_Downward
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: SS_Downward_Slash
+  clip: {fileID: -203655887218126122, guid: b963b38550059194faa03f9bc705508b, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.2
+  fadeIn: 0.18
+  hitStart: 0.527
+  windupSpeed: 1.4
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.577
+  cutDir: {x: -0.31050453, y: -0.27597085, z: 0.9096302}
+  cuts: []
+  comboWindow: 0.597
+  dodgeCancel: 0.637
+  end: 0.9
+  steerUntil: 0.39525002
+  damage: 22
+  poiseDamage: 20
+  staminaCost: 10
+  unblockable: 0
+  guardBreak: 0
+  reaction: 1
+  knockback: 1.2
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.06
+  shake: 0.25
+  warpMaxDistance: 2.6
+  idealRange: 1.496
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: 94ea94e432f75ef4db659c19ad1bc6f6, type: 2}
+  nextHeavy: {fileID: 11400000, guid: b550ad8f5d1113045890b60ffd618bb1, type: 2}
+  nextLightVia: {fileID: 11400000, guid: 917d3147319fb284595a8e61cb7061ce, type: 2}
+  offHand: 0
+  pairedVictim: 1

@@ -1,0 +1,26 @@
+{
+    "name": "GK.Intro.Editor",
+    "rootNamespace": "GeorgianKnight.EditorTools",
+    "references": [
+        "GK.Bridge",
+        "Unity.Cinemachine",
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "GK.Intro.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

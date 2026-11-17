@@ -1,0 +1,26 @@
+{
+    "name": "GK.Gameplay",
+    "rootNamespace": "GeorgianKnight",
+    "references": [
+        "GK.Core",
+        "GK.Feel",
+        "Unity.Cinemachine",
+        "Unity.InputSystem",
+        "Unity.AI.Navigation",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.Timeline",
+        "Unity.Animation.Rigging",
+        "Unity.Mathematics",
+        "Unity.Splines"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

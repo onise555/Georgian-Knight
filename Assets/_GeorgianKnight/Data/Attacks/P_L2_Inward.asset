@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: P_L2_Inward
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: GK_Slash_Inward
+  clip: {fileID: -203655887218126122, guid: 6468607127056c74c96a704a9ceef075, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.25
+  fadeIn: 0.08
+  hitStart: 0.33333334
+  windupSpeed: 2.123457
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.41666666
+  cutDir: {x: 0.67438096, y: 0.20578384, z: 0.7091286}
+  cuts: []
+  comboWindow: 0.43666667
+  dodgeCancel: 0.47666666
+  end: 0.5966667
+  steerUntil: 0.25
+  damage: 20
+  poiseDamage: 16
+  staminaCost: 9
+  unblockable: 0
+  guardBreak: 0
+  reaction: 1
+  knockback: 1.1
+  hyperArmor: 0
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.06
+  shake: 0.25
+  warpMaxDistance: 2.6
+  idealRange: 1.0783015
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: 1a2a507b6c4f7a843a56cb4a3db776fd, type: 2}
+  nextHeavy: {fileID: 11400000, guid: afef2c6a912a47b4d9379e39b9a40aa8, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0
+  pairedVictim: 1

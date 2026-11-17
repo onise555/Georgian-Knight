@@ -1,0 +1,22 @@
+{
+    "name": "GK.Feel.Editor",
+    "rootNamespace": "GeorgianKnight.EditorTools",
+    "references": [
+        "GK.Bridge",
+        "GK.Core",
+        "GK.Feel",
+        "GK.Gameplay",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

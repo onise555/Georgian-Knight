@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab147a3920533d4bba27068c00cfc55, type: 3}
+  m_Name: S_L3_Combo
+  m_EditorClassIdentifier: 
+  kind: 0
+  state: SS_Slash_Combo
+  clip: {fileID: -203655887218126122, guid: 3188df06d3e0bdb4e8acb17e8e47526b, type: 3}
+  hand: 0
+  shieldBash: 0
+  speed: 1.2
+  fadeIn: 0.16
+  hitStart: 0.155
+  windupSpeed: 1.5
+  chainEntry: 0
+  viaEnd: 0
+  hitEnd: 0.9
+  cutDir: {x: -0.09021521, y: -0.25680307, z: 0.962244}
+  cuts:
+  - {x: 0.155, y: 0.27}
+  - {x: 0.305, y: 0.395}
+  - {x: 0.655, y: 0.72833335}
+  comboWindow: 0.91999996
+  dodgeCancel: 0.95
+  end: 0.97
+  steerUntil: 0.11625
+  damage: 32
+  poiseDamage: 36
+  staminaCost: 13
+  unblockable: 0
+  guardBreak: 0
+  reaction: 2
+  knockback: 2
+  hyperArmor: 1
+  chargeable: 0
+  maxChargeTime: 1.1
+  chargeDamageMultiplier: 1.8
+  hitStop: 0.09
+  shake: 0.4
+  warpMaxDistance: 2.6
+  idealRange: 1.565
+  maxWarpSpeed: 9
+  nextLight: {fileID: 11400000, guid: 1e9d091c91bbcd24196e8cd757edda89, type: 2}
+  nextHeavy: {fileID: 11400000, guid: 1d57780523bad124bbfc164a459ee6bd, type: 2}
+  nextLightVia: {fileID: 0}
+  offHand: 0
+  pairedVictim: 1

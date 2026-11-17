@@ -1,0 +1,796 @@
+{
+  "entries": [
+    {
+      "k": "ui.hud.wave",
+      "v": "შემოტევა {0} / {1}"
+    },
+    {
+      "k": "ui.hud.foes",
+      "v": "მტერი: {0}"
+    },
+    {
+      "k": "ui.hud.prepare",
+      "v": "მტერი ახლოვდება…"
+    },
+    {
+      "k": "ui.banner.wave",
+      "v": "შემოტევა {0}"
+    },
+    {
+      "k": "ui.banner.wave_cleared",
+      "v": "მტერი უკუიქცა"
+    },
+    {
+      "k": "ui.banner.next_wave",
+      "v": "მტერი კვლავ მოდის…"
+    },
+    {
+      "k": "wave.didgori.1.title",
+      "v": "მოწინავე რაზმი"
+    },
+    {
+      "k": "wave.didgori.2.title",
+      "v": "ემირის ღულამნი"
+    },
+    {
+      "k": "wave.didgori.3.title",
+      "v": "ნაცადი ღულამნი"
+    },
+    {
+      "k": "enemy.seljuk_warrior.name",
+      "v": "ღულამი მეხმალე"
+    },
+    {
+      "k": "enemy.seljuk_veteran.name",
+      "v": "ნაცადი ღულამი"
+    },
+    {
+      "k": "enemy.seljuk_champion.name",
+      "v": "ილღაზის რჩეული"
+    },
+    {
+      "k": "ui.action.move",
+      "v": "სიარული"
+    },
+    {
+      "k": "ui.action.camera",
+      "v": "მიმოხედვა"
+    },
+    {
+      "k": "ui.action.light",
+      "v": "მსუბუქი დარტყმა"
+    },
+    {
+      "k": "ui.action.heavy",
+      "v": "მძიმე დარტყმა"
+    },
+    {
+      "k": "ui.action.heavy.hint",
+      "v": "დააყოვნე — უფრო ძლიერად"
+    },
+    {
+      "k": "ui.action.block",
+      "v": "დაცვა"
+    },
+    {
+      "k": "ui.action.block.hint",
+      "v": "ზუსტ დროს — მოგერიება"
+    },
+    {
+      "k": "ui.action.dodge",
+      "v": "აცილება"
+    },
+    {
+      "k": "ui.action.sprint",
+      "v": "სირბილი"
+    },
+    {
+      "k": "ui.action.lock",
+      "v": "დამიზნება"
+    },
+    {
+      "k": "ui.action.kick",
+      "v": "წიხლი"
+    },
+    {
+      "k": "ui.action.warcry",
+      "v": "საომარი ყიჟინა"
+    },
+    {
+      "k": "ui.action.pause",
+      "v": "შეჩერება"
+    },
+    {
+      "k": "ui.action.holster",
+      "v": "ქარქაშში ჩაგება / ამოღება"
+    },
+    {
+      "k": "ui.end.place",
+      "v": "დიდგორი · 1121"
+    },
+    {
+      "k": "ui.end.victory.title",
+      "v": "ძლევა"
+    },
+    {
+      "k": "ui.end.victory.line",
+      "v": "რიგი დგას."
+    },
+    {
+      "k": "ui.end.defeat.title",
+      "v": "დაეცი"
+    },
+    {
+      "k": "ui.end.defeat.line",
+      "v": "რიგი უშენოდ დგას. ადექი."
+    },
+    {
+      "k": "ui.end.stat.waves",
+      "v": "შემოტევები"
+    },
+    {
+      "k": "ui.end.stat.kills",
+      "v": "დაცემული მტერი"
+    },
+    {
+      "k": "ui.end.stat.time",
+      "v": "დრო"
+    },
+    {
+      "k": "ui.end.restart",
+      "v": "კვლავ ბრძოლად"
+    },
+    {
+      "k": "ui.end.quit",
+      "v": "თამაშიდან გასვლა"
+    },
+    {
+      "k": "ui.pause.title",
+      "v": "შეჩერებულია"
+    },
+    {
+      "k": "ui.pause.resume",
+      "v": "გაგრძელება"
+    },
+    {
+      "k": "ui.pause.restart",
+      "v": "ბრძოლის თავიდან დაწყება"
+    },
+    {
+      "k": "ui.pause.controls",
+      "v": "მართვა"
+    },
+    {
+      "k": "ui.pause.quit",
+      "v": "თამაშიდან გასვლა"
+    },
+    {
+      "k": "ui.confirm.restart.title",
+      "v": "ბრძოლა თავიდან დაიწყოს?"
+    },
+    {
+      "k": "ui.confirm.restart.body",
+      "v": "ამ ბრძოლის შედეგი არ შეინახება."
+    },
+    {
+      "k": "ui.confirm.quit.title",
+      "v": "თამაშიდან გასვლა?"
+    },
+    {
+      "k": "ui.common.yes",
+      "v": "დიახ"
+    },
+    {
+      "k": "ui.common.no",
+      "v": "არა"
+    },
+    {
+      "k": "ui.prompt.select",
+      "v": "არჩევა"
+    },
+    {
+      "k": "ui.prompt.back",
+      "v": "უკან"
+    },
+    {
+      "k": "ui.controls.device.kbm",
+      "v": "კლავიატურა და თაგვი"
+    },
+    {
+      "k": "ui.controls.device.pad",
+      "v": "სათამაშო პულტი"
+    },
+    {
+      "k": "game.title",
+      "v": "ქართველი რაინდი"
+    },
+    {
+      "k": "enemy.generic.name",
+      "v": "თურქი"
+    },
+    {
+      "k": "ui.banner.last_wave",
+      "v": "უკანასკნელი შემოტევა"
+    },
+    {
+      "k": "ui.combat.parry",
+      "v": "მოგერიება!"
+    },
+    {
+      "k": "ui.combat.perfect_dodge",
+      "v": "ზუსტი აცილება"
+    },
+    {
+      "k": "ui.combat.guard_broken",
+      "v": "დაცვა გაირღვა"
+    },
+    {
+      "k": "ui.prompt.ladder_up",
+      "v": "{0} — კიბეზე ასვლა"
+    },
+    {
+      "k": "ui.prompt.ladder_down",
+      "v": "{0} — კიბით ჩასვლა"
+    },
+    {
+      "k": "ui.prompt.skip",
+      "v": "{0} — გამოტოვება"
+    },
+    {
+      "k": "ui.action.jump",
+      "v": "ხტომა"
+    },
+    {
+      "k": "ui.action.interact",
+      "v": "მოქმედება"
+    },
+    {
+      "k": "ui.action.style_shield",
+      "v": "ხმალი და ფარი"
+    },
+    {
+      "k": "ui.action.style_sword",
+      "v": "მარტო ხმალი"
+    },
+    {
+      "k": "ui.lang.label",
+      "v": "ენა"
+    },
+    {
+      "k": "ui.lang.ka",
+      "v": "ქართული"
+    },
+    {
+      "k": "ui.lang.en",
+      "v": "English"
+    },
+    {
+      "k": "ui.settings.title",
+      "v": "პარამეტრები"
+    },
+    {
+      "k": "ui.settings.tab.game",
+      "v": "თამაში"
+    },
+    {
+      "k": "ui.settings.tab.controls",
+      "v": "მართვა"
+    },
+    {
+      "k": "ui.settings.tab.display",
+      "v": "გამოსახულება"
+    },
+    {
+      "k": "ui.settings.tab.audio",
+      "v": "ხმა"
+    },
+    {
+      "k": "ui.settings.tab.access",
+      "v": "ხელმისაწვდომობა"
+    },
+    {
+      "k": "ui.settings.difficulty",
+      "v": "სირთულე"
+    },
+    {
+      "k": "ui.settings.difficulty.pilgrim",
+      "v": "მომლოცველი"
+    },
+    {
+      "k": "ui.settings.difficulty.aznauri",
+      "v": "აზნაური"
+    },
+    {
+      "k": "ui.settings.difficulty.monaspa",
+      "v": "მონასპა"
+    },
+    {
+      "k": "ui.settings.difficulty.didgori",
+      "v": "დიდგორი"
+    },
+    {
+      "k": "ui.settings.language.text",
+      "v": "ტექსტის ენა"
+    },
+    {
+      "k": "ui.settings.language.voice",
+      "v": "ხმის ენა"
+    },
+    {
+      "k": "ui.settings.subtitles",
+      "v": "სუბტიტრები"
+    },
+    {
+      "k": "ui.settings.subtitles.size",
+      "v": "სუბტიტრების ზომა"
+    },
+    {
+      "k": "ui.settings.subtitles.speaker",
+      "v": "მოლაპარაკის სახელი"
+    },
+    {
+      "k": "ui.settings.subtitles.background",
+      "v": "სუბტიტრების ფონი"
+    },
+    {
+      "k": "ui.settings.size.small",
+      "v": "პატარა"
+    },
+    {
+      "k": "ui.settings.size.medium",
+      "v": "საშუალო"
+    },
+    {
+      "k": "ui.settings.size.large",
+      "v": "დიდი"
+    },
+    {
+      "k": "ui.settings.on",
+      "v": "ჩართული"
+    },
+    {
+      "k": "ui.settings.off",
+      "v": "გამორთული"
+    },
+    {
+      "k": "ui.settings.reduced",
+      "v": "შემცირებული"
+    },
+    {
+      "k": "ui.settings.full",
+      "v": "სრული"
+    },
+    {
+      "k": "ui.settings.volume.master",
+      "v": "საერთო ხმა"
+    },
+    {
+      "k": "ui.settings.volume.dialogue",
+      "v": "საუბარი"
+    },
+    {
+      "k": "ui.settings.volume.music",
+      "v": "მუსიკა"
+    },
+    {
+      "k": "ui.settings.volume.effects",
+      "v": "ეფექტები"
+    },
+    {
+      "k": "ui.settings.volume.ambience",
+      "v": "გარემოს ხმები"
+    },
+    {
+      "k": "ui.settings.dialogue_boost",
+      "v": "საუბრის გაძლიერება"
+    },
+    {
+      "k": "ui.settings.mono",
+      "v": "მონო ხმა"
+    },
+    {
+      "k": "ui.settings.camera_shake",
+      "v": "კამერის რყევა"
+    },
+    {
+      "k": "ui.settings.flashes",
+      "v": "ნათების ციმციმი"
+    },
+    {
+      "k": "ui.settings.flashes.note",
+      "v": "აკლებს სინათლის ციმციმს: მგრძნობიარე თვალისა და ფოტოსენსიტიური ეპილეფსიის მქონეთათვის."
+    },
+    {
+      "k": "ui.settings.gore",
+      "v": "სისხლი და ჭრილობები"
+    },
+    {
+      "k": "ui.settings.slow_motion",
+      "v": "შენელებული კადრები"
+    },
+    {
+      "k": "ui.settings.motion_blur",
+      "v": "მოძრაობის გაბუნდოვნება"
+    },
+    {
+      "k": "ui.settings.hud",
+      "v": "ეკრანის ნიშნები"
+    },
+    {
+      "k": "ui.settings.sound_cues",
+      "v": "ხმის ხილული ნიშნები"
+    },
+    {
+      "k": "ui.settings.parry_window",
+      "v": "მოგერიების დრო"
+    },
+    {
+      "k": "ui.settings.lock_sticky",
+      "v": "დამიზნების სიმტკიცე"
+    },
+    {
+      "k": "ui.settings.invert_x",
+      "v": "ჰორიზონტალის შებრუნება"
+    },
+    {
+      "k": "ui.settings.invert_y",
+      "v": "ვერტიკალის შებრუნება"
+    },
+    {
+      "k": "ui.settings.sensitivity",
+      "v": "მიმოხედვის სისწრაფე"
+    },
+    {
+      "k": "ui.settings.hold_toggle",
+      "v": "დაჭერა თუ გადართვა"
+    },
+    {
+      "k": "ui.settings.hold",
+      "v": "დაჭერა"
+    },
+    {
+      "k": "ui.settings.toggle",
+      "v": "გადართვა"
+    },
+    {
+      "k": "ui.settings.rebind",
+      "v": "ღილაკების შეცვლა"
+    },
+    {
+      "k": "ui.settings.rebind.prompt",
+      "v": "დააჭირე ახალ ღილაკს…"
+    },
+    {
+      "k": "ui.settings.rebind.conflict",
+      "v": "ეს ღილაკი უკვე დაკავებულია: {0}"
+    },
+    {
+      "k": "ui.settings.defaults",
+      "v": "საწყისი პარამეტრები"
+    },
+    {
+      "k": "ui.settings.apply",
+      "v": "შენახვა"
+    },
+    {
+      "k": "ui.title.press",
+      "v": "ნებისმიერი ღილაკი — დასაწყებად"
+    },
+    {
+      "k": "ui.main.start",
+      "v": "ბრძოლის დაწყება"
+    },
+    {
+      "k": "ui.main.language",
+      "v": "ენა"
+    },
+    {
+      "k": "ui.main.credits",
+      "v": "შემქმნელები"
+    },
+    {
+      "k": "ui.main.version",
+      "v": "ვერსია {0}"
+    },
+    {
+      "k": "ui.confirm.yes",
+      "v": "დიახ"
+    },
+    {
+      "k": "ui.confirm.no",
+      "v": "არა"
+    },
+    {
+      "k": "ui.inv.tab.equipment",
+      "v": "საჭურველი"
+    },
+    {
+      "k": "ui.inv.tab.provisions",
+      "v": "სანოვაგე"
+    },
+    {
+      "k": "ui.inv.tab.books",
+      "v": "წიგნები"
+    },
+    {
+      "k": "ui.inv.tab.materials",
+      "v": "მასალა"
+    },
+    {
+      "k": "ui.inv.tab.saddlebags",
+      "v": "ლურჯას ხურჯინი"
+    },
+    {
+      "k": "ui.inv.group.weapons",
+      "v": "იარაღი"
+    },
+    {
+      "k": "ui.inv.group.armour",
+      "v": "ჯავშანი და სამოსი"
+    },
+    {
+      "k": "ui.inv.group.belt",
+      "v": "ქამარზე"
+    },
+    {
+      "k": "ui.slot.main_a",
+      "v": "პირველი იარაღი"
+    },
+    {
+      "k": "ui.slot.main_b",
+      "v": "მეორე იარაღი"
+    },
+    {
+      "k": "ui.slot.shield",
+      "v": "ფარი"
+    },
+    {
+      "k": "ui.slot.bow",
+      "v": "მშვილდი"
+    },
+    {
+      "k": "ui.slot.quiver",
+      "v": "კაპარჭი"
+    },
+    {
+      "k": "ui.slot.head",
+      "v": "თავი"
+    },
+    {
+      "k": "ui.slot.body",
+      "v": "ტანი"
+    },
+    {
+      "k": "ui.slot.hands",
+      "v": "ხელები"
+    },
+    {
+      "k": "ui.slot.legs",
+      "v": "ფეხები"
+    },
+    {
+      "k": "ui.slot.feet",
+      "v": "ფეხსაცმელი"
+    },
+    {
+      "k": "ui.slot.cloak",
+      "v": "მოსასხამი"
+    },
+    {
+      "k": "ui.slot.belt",
+      "v": "ქამარი {0}"
+    },
+    {
+      "k": "ui.slot.empty",
+      "v": "ცარიელი"
+    },
+    {
+      "k": "ui.stat.damage",
+      "v": "დარტყმა"
+    },
+    {
+      "k": "ui.stat.poise",
+      "v": "მდგრადობა"
+    },
+    {
+      "k": "ui.stat.speed",
+      "v": "სისწრაფე"
+    },
+    {
+      "k": "ui.stat.reach",
+      "v": "მანძილი"
+    },
+    {
+      "k": "ui.stat.value",
+      "v": "ფასი"
+    },
+    {
+      "k": "ui.stat.weight",
+      "v": "წონა"
+    },
+    {
+      "k": "ui.inv.equipped",
+      "v": "აღჭურვილია"
+    },
+    {
+      "k": "ui.inv.equip",
+      "v": "აღჭურვა"
+    },
+    {
+      "k": "ui.inv.inspect",
+      "v": "დათვალიერება"
+    },
+    {
+      "k": "ui.inv.drop",
+      "v": "დადება"
+    },
+    {
+      "k": "ui.inv.use",
+      "v": "გამოყენება"
+    },
+    {
+      "k": "ui.inv.silver",
+      "v": "{0} დრაჰკანი"
+    },
+    {
+      "k": "ui.inv.load",
+      "v": "ტვირთი {0} / {1}"
+    },
+    {
+      "k": "ui.inv.carried",
+      "v": "ზურგზე"
+    },
+    {
+      "k": "ui.qb.arrows",
+      "v": "ისრები: {0}"
+    },
+    {
+      "k": "ui.prompt.take",
+      "v": "აღება"
+    },
+    {
+      "k": "ui.prompt.sit",
+      "v": "დაჯდომა"
+    },
+    {
+      "k": "ui.prompt.drink",
+      "v": "დალევა"
+    },
+    {
+      "k": "ui.prompt.read_now",
+      "v": "ახლავე წაკითხვა"
+    },
+    {
+      "k": "ui.prompt.keep",
+      "v": "შენახვა"
+    },
+    {
+      "k": "ui.prompt.too_dark",
+      "v": "ბნელა"
+    },
+    {
+      "k": "ui.prompt.open",
+      "v": "გაღება"
+    },
+    {
+      "k": "ui.shop.browse",
+      "v": "მიმოხედვა"
+    },
+    {
+      "k": "ui.shop.ledger",
+      "v": "დავთარი"
+    },
+    {
+      "k": "ui.shop.leave",
+      "v": "წასვლა"
+    },
+    {
+      "k": "ui.shop.buy",
+      "v": "ყიდვა"
+    },
+    {
+      "k": "ui.shop.sell",
+      "v": "გაყიდვა"
+    },
+    {
+      "k": "ui.shop.whet",
+      "v": "გალესვა"
+    },
+    {
+      "k": "ui.shop.haggle",
+      "v": "ფასის დაკლება"
+    },
+    {
+      "k": "ui.shop.price",
+      "v": "ფასი"
+    },
+    {
+      "k": "ui.shop.received",
+      "v": "მიღებულია"
+    },
+    {
+      "k": "ui.shop.equip_now",
+      "v": "ახლავე აღჭურვა"
+    },
+    {
+      "k": "ui.shop.paid",
+      "v": "გადახდილია {0} დრაჰკანი"
+    },
+    {
+      "k": "ui.shop.haggle.note",
+      "v": "თითო ნივთზე ერთხელ, ყოველ მოსვლაზე. თუ არ გამოვიდა, {0} ერთი დღე ფასს აღარ დაუკლებს."
+    },
+    {
+      "k": "ui.fx.health",
+      "v": "სიცოცხლე +{0}, {1} წამის განმავლობაში"
+    },
+    {
+      "k": "ui.fx.use_time",
+      "v": "სჭირდება {0} წმ"
+    },
+    {
+      "k": "ui.book.read",
+      "v": "წაკითხულია"
+    },
+    {
+      "k": "ui.book.reread",
+      "v": "ხელახლა წაიკითხება"
+    },
+    {
+      "k": "ui.inv.vs",
+      "v": "შედარება: {0}"
+    },
+    {
+      "k": "ui.menu.main_menu",
+      "v": "მთავარი მენიუ"
+    },
+    {
+      "k": "ui.confirm.main_menu.title",
+      "v": "ბრძოლის დატოვება?"
+    },
+    {
+      "k": "ui.confirm.main_menu.body",
+      "v": "მთავარ მენიუში დაბრუნდები. ამ ბრძოლის შედეგი არ შეინახება."
+    },
+    {
+      "k": "ui.settings.quality",
+      "v": "გრაფიკის ხარისხი"
+    },
+    {
+      "k": "ui.settings.quality.low",
+      "v": "დაბალი"
+    },
+    {
+      "k": "ui.settings.quality.medium",
+      "v": "საშუალო"
+    },
+    {
+      "k": "ui.settings.quality.high",
+      "v": "მაღალი"
+    },
+    {
+      "k": "ui.settings.quality.ultra",
+      "v": "უმაღლესი"
+    },
+    {
+      "k": "ui.settings.vsync",
+      "v": "ვერტიკალური სინქრონიზაცია"
+    },
+    {
+      "k": "ui.settings.fullscreen",
+      "v": "სრული ეკრანი"
+    },
+    {
+      "k": "ui.prompt.change",
+      "v": "შეცვლა"
+    },
+    {
+      "k": "ui.prompt.tabs",
+      "v": "ჩანართები"
+    },
+    {
+      "k": "ui.loading",
+      "v": "იტვირთება…"
+    }
+  ]
+}

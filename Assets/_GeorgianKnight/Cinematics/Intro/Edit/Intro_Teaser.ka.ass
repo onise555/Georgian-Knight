@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Noto Serif Georgian,148,&H00A0D9EE,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,4,0,1,0,0,5,0,0,0,1
+Style: Subtitle,Noto Serif Georgian,56,&H00E0E0E0,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,0,0,5,0,0,0,1
+Style: Place,Noto Serif Georgian,38,&H00BBBBBB,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,0,0,5,0,0,0,1
+Style: VOSub,Noto Serif Georgian,40,&H00F2F2F2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,1.5,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.60,0:00:15.00,Title,,0,0,0,,{\pos(960,486)\fad(600,0)}{\fnNoto Serif}GEORGIAN KNIGHT
+Dialogue: 0,0:00:13.90,0:00:15.00,Subtitle,,0,0,0,,{\pos(960,602)\fad(600,0)}{\fnNoto Serif Georgian}ქართველი რაინდი
+Dialogue: 0,0:00:14.10,0:00:15.00,Place,,0,0,0,,{\pos(960,655)\fad(500,0)}{\fnNoto Serif Georgian}დიდგორი {\fnNoto Serif}· 1121

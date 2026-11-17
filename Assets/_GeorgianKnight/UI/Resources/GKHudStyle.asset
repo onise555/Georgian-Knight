@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c94c4fc03d8eb40ad4f1400031b255, type: 3}
+  m_Name: GKHudStyle
+  m_EditorClassIdentifier: 
+  serif: {fileID: 12800000, guid: 955ad52b34f3c40408802bd19af38345, type: 3}
+  sans: {fileID: 12800000, guid: 57999d5a00ce6214bbde8f2a486a8896, type: 3}
+  emblem: {fileID: 2800000, guid: 10f1791844c74ce4f83b82dde407cbe4, type: 3}
+  plate: {fileID: 2800000, guid: 3e4d36511c48be64cb8092b4b546d01f, type: 3}
+  credits: {fileID: 4900000, guid: ed37ea203e327e644a067d0d9fa30529, type: 3}

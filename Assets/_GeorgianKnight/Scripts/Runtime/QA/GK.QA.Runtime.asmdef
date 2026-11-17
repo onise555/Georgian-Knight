@@ -1,0 +1,17 @@
+{
+    "name": "GK.QA.Runtime",
+    "rootNamespace": "GeorgianKnight.QA",
+    "references": [
+        "GK.Core",
+        "GK.Gameplay"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

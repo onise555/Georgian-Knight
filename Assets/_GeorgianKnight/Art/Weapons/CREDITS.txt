@@ -1,0 +1,21 @@
+ArmingSword / ArmingScabbard
+
+"Medieval Arming Sword and Scabbard" by Pippa (Planetrix23)
+https://sketchfab.com/3d-models/medieval-arming-sword-and-scabbard-484255d89c5e4b058791a9fb5485a44d
+Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Changes: split into separate sword and scabbard meshes, re-exported as FBX; the glTF metallic-roughness
+texture was split into separate metallic and roughness maps.
+
+The game's credits must name the author: "Medieval Arming Sword and Scabbard" by Pippa (Planetrix23), CC BY 4.0.
+
+KiteShield
+
+"Teardrop Shields - Two Color, Two Pattern" by I.Z.
+https://sketchfab.com/3d-models/teardrop-shields-two-color-two-pattern-0a46f4ef0b854efdb8f8b9d26ed506e3
+Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Changes: kept the red-and-white quartered shield of the four; re-exported as FBX; added metallic and roughness maps
+derived from the colour map (iron rim, boss and rivets metallic, paint and wood matte).
+
+The game's credits must name the author: "Teardrop Shields" by I.Z., CC BY 4.0.
