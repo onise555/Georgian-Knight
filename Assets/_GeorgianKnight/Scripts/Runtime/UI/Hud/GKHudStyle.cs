@@ -21,5 +21,7 @@ namespace GeorgianKnight.UI
         public Texture2D plate;
         [Tooltip("Assets/_GeorgianKnight/CREDITS.txt: the credits screen lists its third-party lines.")]
         public TextAsset credits;
+        [Tooltip("Quick bar icons, rendered from the game's own models (Docs/UI/Inventory/icons).")]
+        public Texture2D iconSword, iconShield;
     }
 }

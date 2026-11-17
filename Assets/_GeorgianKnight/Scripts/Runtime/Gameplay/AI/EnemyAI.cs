@@ -38,7 +38,7 @@ namespace GeorgianKnight
         [Range(0f, 1f)] public float unblockableChance = 0.15f;
         public float reactionTime = 0.22f;
         [Tooltip("Chance to answer a raised guard with the kick (the move set's guard breaker) instead of a cut.")]
-        [Range(0f, 1f)] public float guardBreakChance = 0.35f;
+        [Range(0f, 1f)] public float guardBreakChance = 0.12f;   // 0.35 broke a held guard 8 of 18 blows (duelqa)
         [Tooltip("An attacker who cannot close in this long gives the token back, so the others are not left circling.")]
         public float engageTimeout = 2.5f;
 
@@ -268,7 +268,7 @@ namespace GeorgianKnight
             if (m == null) return;
             AttackData a = null;
             // a raised guard is answered with the kick (the guard breaker) instead of a cut into the shield
-            if (m.kick != null && player != null && player.IsBlocking && Random.value < guardBreakChance)
+            if (m.kick != null && player != null && player.IsBlocking && lastThrown != m.kick && Random.value < guardBreakChance)
                 a = m.kick;
             else if (m.aiUnblockables != null && m.aiUnblockables.Length > 0 && Random.value < unblockableChance)
                 a = m.aiUnblockables[Random.Range(0, m.aiUnblockables.Length)];
@@ -286,7 +286,15 @@ namespace GeorgianKnight
                 recoverUntil = Time.time + Random.Range(0.6f, 1.4f);
                 CurrentMode = Mode.Recover;
             }
-            else CombatDirector.I.ReleaseAttackToken(self);
+            else
+            {
+                // a blow that could not start (out of stamina, mid-reaction) gives the token back and steps out of Engage:
+                // left in it, the brain re-rolled every frame until a cheap move went through, and the kick and the
+                // unblockables came up far more often than their chances (duelqa: 5 kicks of 15 blows at 12 %)
+                CombatDirector.I.ReleaseAttackToken(self);
+                CurrentMode = Mode.Circle;
+                nextAttackThink = Time.time + 0.5f;
+            }
         }
 
         void TryChainCombo()

@@ -17,3 +17,5 @@ MonoBehaviour:
   emblem: {fileID: 2800000, guid: 10f1791844c74ce4f83b82dde407cbe4, type: 3}
   plate: {fileID: 2800000, guid: 3e4d36511c48be64cb8092b4b546d01f, type: 3}
   credits: {fileID: 4900000, guid: ed37ea203e327e644a067d0d9fa30529, type: 3}
+  iconSword: {fileID: 2800000, guid: bfb334030289a7749a5be3eb878996ee, type: 3}
+  iconShield: {fileID: 2800000, guid: 7a2acbda12a96d84ebeef0bc54b7d09b, type: 3}

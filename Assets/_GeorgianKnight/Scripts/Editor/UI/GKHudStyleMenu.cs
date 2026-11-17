@@ -17,6 +17,8 @@ namespace GeorgianKnight.EditorTools
         const string EmblemPath = "Assets/_GeorgianKnight/UI/Textures/emblem_vinecross_hud.png";
         const string PlatePath = "Assets/_GeorgianKnight/UI/Textures/plate_didgori_dawn.jpg";
         const string CreditsPath = "Assets/_GeorgianKnight/CREDITS.txt";
+        const string IconSwordPath = "Assets/_GeorgianKnight/UI/Textures/Icons/arming_sword.png";
+        const string IconShieldPath = "Assets/_GeorgianKnight/UI/Textures/Icons/round_shield.png";
 
         [MenuItem("GK/UI/Create HUD Style")]
         public static void Create()
@@ -33,13 +35,16 @@ namespace GeorgianKnight.EditorTools
             style.emblem = AssetDatabase.LoadAssetAtPath<Texture2D>(EmblemPath);
             style.plate = AssetDatabase.LoadAssetAtPath<Texture2D>(PlatePath);
             style.credits = AssetDatabase.LoadAssetAtPath<TextAsset>(CreditsPath);
+            style.iconSword = AssetDatabase.LoadAssetAtPath<Texture2D>(IconSwordPath);
+            style.iconShield = AssetDatabase.LoadAssetAtPath<Texture2D>(IconShieldPath);
             EditorUtility.SetDirty(style);
             AssetDatabase.SaveAssets();
             Debug.Log("[GKHud] style: serif " + (style.serif != null ? "ok" : "MISSING " + SerifPath)
                 + ", sans " + (style.sans != null ? "ok" : "missing (the serif is used) " + SansPath)
                 + ", emblem " + (style.emblem != null ? "ok" : "MISSING " + EmblemPath)
                 + ", plate " + (style.plate != null ? "ok" : "MISSING " + PlatePath)
-                + ", credits " + (style.credits != null ? "ok" : "MISSING " + CreditsPath));
+                + ", credits " + (style.credits != null ? "ok" : "MISSING " + CreditsPath)
+                + ", icons " + (style.iconSword != null && style.iconShield != null ? "ok" : "MISSING " + IconSwordPath + " / " + IconShieldPath));
         }
     }
 }

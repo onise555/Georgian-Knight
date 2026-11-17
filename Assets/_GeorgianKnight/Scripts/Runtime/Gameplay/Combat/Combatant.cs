@@ -56,6 +56,15 @@ namespace GeorgianKnight
         float lastAttackEnded = -10f;
         Combatant freeFlowTarget;
         public float steerSharpness = 16f;
+        [Header("Player: guard out of a flinch, swing tracking")]
+        [Tooltip("Player only: a held guard comes up out of a light flinch after this long (s). Without it a combo's cuts "
+                 + "each restarted the flinch and the knight could not raise his shield for seconds.")]
+        public float guardCancelLight = 0.22f;
+        [Tooltip("Player only: the same out of a heavy reaction (s). Staggers and knockdowns are never cut short.")]
+        public float guardCancelHeavy = 0.45f;
+        [Tooltip("Player only: after the attack's steerUntil the swing keeps turning onto its target this sharply until the "
+                 + "edge opens, so a foe who side-steps during the wind-up is still met by the blade.")]
+        public float trackSharpness = 7f;
 
         [Header("Animation")]
         public float returnFade = 0.2f;
@@ -197,8 +206,19 @@ namespace GeorgianKnight
 
         // ------------------------------------------------------------------ requests (brains call these)
 
+        float reactedAt = -10f;
+        bool reactedHeavy;
+
         public void SetBlock(bool held)
         {
+            // the player's held guard comes up out of a flinch once its first moment has passed (a light 0.22 s, a heavy
+            // 0.45 s): the next cut of an enemy combo is met by the shield, not by another flinch
+            if (held && team == Team.Player && CurrentState == State.Reacting && canBlock && WeaponReady &&
+                Time.time - reactedAt >= (reactedHeavy ? guardCancelHeavy : guardCancelLight))
+            {
+                ReturnToFree();
+                blockPressTime = -10f;                         // coming out of a flinch is not a timed parry
+            }
             if (held && !BlockHeld)
             {
                 blockPressTime = Time.time;
@@ -568,11 +588,15 @@ namespace GeorgianKnight
             {
                 if (hit.reaction == HitReaction.Knockdown) EnterKnockdown();
                 else if (poiseBroke || hit.reaction == HitReaction.Stagger) EnterStagger(moves != null ? moves.stagger : null, 1.6f);
-                else if (hit.reaction == HitReaction.Heavy && moves != null && moves.hitHeavy.IsValid) PlayAction(moves.hitHeavy, State.Reacting);
+                else if (hit.reaction == HitReaction.Heavy && moves != null && moves.hitHeavy.IsValid)
+                {
+                    PlayAction(moves.hitHeavy, State.Reacting);
+                    reactedAt = Time.time; reactedHeavy = true;
+                }
                 else if (hit.reaction != HitReaction.None && moves != null)
                 {
                     ActionClip c = moves.hitLight.Pick(angle);
-                    if (c != null) PlayAction(c, State.Reacting);
+                    if (c != null) { PlayAction(c, State.Reacting); reactedAt = Time.time; reactedHeavy = false; }
                 }
             }
             return Notify(hit, HitResult.Hit);
@@ -1084,6 +1108,12 @@ namespace GeorgianKnight
                 Vector3 face = warpTarget != null ? warpTarget.transform.position - transform.position : DesiredFacing;
                 Motor.FaceDirection(face, steerSharpness, dt);
             }
+            // the player's swing keeps tracking its target, more gently, until the edge opens (a side-stepping foe
+            // after steerUntil made the blade cut the air in front of the knight); enemies keep their fixed line so the
+            // player can still side-step them
+            else if (team == Team.Player && warpTarget != null && !warpTarget.IsDead && !frozen && CurrentState == State.Attacking
+                     && p < FirstEdge())
+                Motor.FaceDirection(warpTarget.transform.position - transform.position, trackSharpness, dt);
 
             // charging heavy attacks hold the wind-up pose while the button is held
             if (attack.chargeable && !chargeDone && CurrentState == State.Attacking)
@@ -1254,6 +1284,14 @@ namespace GeorgianKnight
             return Mathf.Clamp01((Mathf.Max(ly - lFootRest, ry - rFootRest) - 0.015f) / 0.04f);
         }
 
+        // where the swing's (first) edge opens: hitStart, or the first cut of a combo clip
+        float FirstEdge()
+        {
+            if (attack == null) return 0f;
+            if (attack.cuts != null && attack.cuts.Length > 0) return attack.cuts[0].x;
+            return attack.hitStart;
+        }
+
         /// <summary>Adds the extra displacement needed to land the swing at the attack's ideal range. It is carried by the
         /// steps: mostly on frames where a foot is off the ground, hardly while both are planted (moved under planted
         /// feet, the heavy cuts slid them 19-36 cm, QUALITY 3c: planted feet stay put).</summary>
@@ -1298,7 +1336,10 @@ namespace GeorgianKnight
             {
                 // strike: hold the range the swing was calibrated at. The clip's own lunge would carry a close target
                 // inside the arc; a target stepping away is followed only gently (sliding mid-swing reads as a glitch)
-                step = Mathf.Clamp(remaining - clipStep, -attack.maxWarpSpeed * 0.8f * dt * lift, attack.maxWarpSpeed * 0.3f * dt * lift);
+                // the player's cut follows a foe stepping back a little harder (0.6 vs 0.3): his swings into the air were
+                // mostly a foe drifting out of the arc mid-cut; enemies keep 0.3 so the player's back-step still works
+                float follow = team == Team.Player ? 0.6f : 0.3f;
+                step = Mathf.Clamp(remaining - clipStep, -attack.maxWarpSpeed * 0.8f * dt * lift, attack.maxWarpSpeed * follow * dt * lift);
             }
             return dir * step;
         }

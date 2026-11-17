@@ -93,6 +93,7 @@ namespace GeorgianKnight.UI
         CombatStats stats;
         LockOnSystem lockOn;
         LadderClimber climber;
+        FightingStyles styles;
         GKInput input;
         WaveManager waves;
         Camera cam;
@@ -103,6 +104,14 @@ namespace GeorgianKnight.UI
         VisualElement root, vitals, hpLag, hpFill, stFill, lockGroup, lockBar, lockBarFill, prompt, hint, hintRows, msgBox;
         readonly VisualElement[] pips = new VisualElement[3];
         Label lockName, promptKey, promptText, msgTitle, msgSub, debugWave, debugMin, debugSec;
+        // quick bar (Docs/UI/Inventory/frames_director/M1_quickbar_ka.png): the fighting styles the knight switches between
+        VisualElement qbar;
+        readonly VisualElement[] qWell = new VisualElement[2], qMark = new VisualElement[2];
+        readonly Label[] qKey = new Label[2];
+        Label qName;
+        int shownStyle = -1;
+        float qNameUntil, shownQName = -1f;
+        bool shownQPad;
         VisualElement debugLine;
 
         // ---------- shown state (set only on change) ----------
@@ -141,8 +150,9 @@ namespace GeorgianKnight.UI
             root.style.position = Position.Absolute;
             root.style.left = 0; root.style.top = 0; root.style.right = 0; root.style.bottom = 0;
             Build(style != null ? style.emblem : null);
+            BuildQuickBar(style);
             root.style.display = DisplayStyle.None;
-            langSub = EventBus.Subscribe<LanguageChanged>(e => { hintBuilt = false; });
+            langSub = EventBus.Subscribe<LanguageChanged>(e => { hintBuilt = false; shownStyle = -1; });
         }
 
         void OnDestroy()
@@ -281,7 +291,7 @@ namespace GeorgianKnight.UI
 
             // first-fight hint card, bottom-right (CONTROLS §5)
             hint = Box(root, 0f, 0f, new Color(Ink.r, Ink.g, Ink.b, 0.5f));
-            Place(hint, float.NaN, float.NaN, 96f, 56f);
+            Place(hint, float.NaN, float.NaN, 96f, 232f);   // above the quick bar (right 96, bottom 56)
             hint.style.paddingLeft = 20f; hint.style.paddingRight = 24f; hint.style.paddingTop = 16f; hint.style.paddingBottom = 16f;
             hint.style.borderLeftWidth = 2f; hint.style.borderLeftColor = new Color(Gilt.r, Gilt.g, Gilt.b, 0.7f);
             hintRows = Box(hint, 0f, 0f, Color.clear);
@@ -315,7 +325,8 @@ namespace GeorgianKnight.UI
             {
                 waves.WaveAnnounced -= OnWave; waves.WaveCleared -= OnCleared; waves.Victory -= OnVictory; waves.Defeat -= OnDefeat;
             }
-            player = null; stats = null; lockOn = null; climber = null; input = null; waves = null; cam = null;
+            player = null; stats = null; lockOn = null; climber = null; styles = null; input = null; waves = null; cam = null;
+            if (qbar != null) qbar.style.display = DisplayStyle.None;
             shownTarget = null; ended = false; hintBuilt = false; nextFind = 0f; shownPrompt = null;
             shownRoot = shownHp = shownLag = shownSt = shownAdr = shownMsg = -1f;
             msgUntil = 0f;
@@ -331,6 +342,8 @@ namespace GeorgianKnight.UI
             stats = player.Stats;
             lockOn = player.GetComponent<LockOnSystem>();
             climber = player.GetComponent<LadderClimber>();
+            styles = player.GetComponent<FightingStyles>();
+            shownStyle = -1;
             input = player.GetComponent<GKInput>();
             waves = FindAnyObjectByType<WaveManager>();
             if (waves != null)
@@ -401,6 +414,7 @@ namespace GeorgianKnight.UI
             UpdateLock(now);
             UpdatePrompt();
             UpdateHint(now);
+            UpdateQuickBar(now);
             UpdateDebug();
 
             float fade = float.IsPositiveInfinity(msgUntil) ? 1f : Mathf.Clamp01((msgUntil - now) * 2f);
@@ -473,6 +487,79 @@ namespace GeorgianKnight.UI
         {
             int dash = s.IndexOf(" — ", System.StringComparison.Ordinal);
             return s.StartsWith("{0}", System.StringComparison.Ordinal) && dash >= 0 ? s.Substring(dash + 3) : s.Replace("{0}", "").Trim();
+        }
+
+        // ---------- quick bar: sword and shield (1 / d-pad left), sword alone (2 / d-pad right) ----------
+
+        void BuildQuickBar(GKHudStyle style)
+        {
+            Texture2D sword = style != null ? style.iconSword : null, shield = style != null ? style.iconShield : null;
+            qbar = Box(root, 0f, 0f, Color.clear);
+            Place(qbar, float.NaN, float.NaN, 96f, 56f);
+            qbar.style.alignItems = Align.FlexEnd;
+            qName = Text(qbar, serif, 32f, Bone, TextAnchor.MiddleRight);
+            qName.style.marginBottom = 12f;
+            var row = Box(qbar, 0f, 0f, Color.clear);
+            row.style.flexDirection = FlexDirection.Row;
+            for (int i = 0; i < 2; i++)
+            {
+                var col = Box(row, 0f, 0f, Color.clear);
+                col.style.alignItems = Align.Center;
+                col.style.marginLeft = i > 0 ? 24f : 0f;
+                var well = Box(col, 88f, 88f, new Color(Ink.r, Ink.g, Ink.b, 0.35f));
+                Border(well, 1f, TrackLine, 0f);
+                if (i == 0 && shield != null)
+                {
+                    var sh = Box(well, 64f, 64f, Color.clear);
+                    Place(sh, 4f, 4f, float.NaN, float.NaN);
+                    sh.style.backgroundImage = new StyleBackground(shield);
+                }
+                if (sword != null)
+                {
+                    var sw = Box(well, i == 0 ? 64f : 80f, i == 0 ? 64f : 80f, Color.clear);
+                    Place(sw, i == 0 ? 22f : 4f, i == 0 ? 20f : 4f, float.NaN, float.NaN);
+                    sw.style.backgroundImage = new StyleBackground(sword);
+                }
+                var mark = Box(col, 24f, 3f, Color.clear);
+                mark.style.marginTop = 8f;
+                var key = Key(col);
+                key.style.marginTop = 12f;
+                qWell[i] = well; qMark[i] = mark; qKey[i] = key;
+            }
+            qbar.style.display = DisplayStyle.None;
+        }
+
+        void UpdateQuickBar(float now)
+        {
+            if (qbar == null) return;
+            bool on = styles != null;
+            var want = on ? DisplayStyle.Flex : DisplayStyle.None;
+            if (qbar.style.display != want) qbar.style.display = want;
+            if (!on) return;
+            int cur = styles.Style == WeaponStyle.Sword ? 1 : 0;
+            if (cur != shownStyle)
+            {
+                bool first = shownStyle < 0;
+                shownStyle = cur;
+                for (int i = 0; i < 2; i++)
+                {
+                    bool act = i == cur;
+                    Border(qWell[i], act ? 1.5f : 1f, act ? Bone : TrackLine, 0f);
+                    qWell[i].style.backgroundColor = new Color(Ink.r, Ink.g, Ink.b, act ? 0.55f : 0.3f);
+                    qWell[i].style.opacity = act ? 1f : 0.7f;
+                    qMark[i].style.backgroundColor = act ? CrimsonHi : Color.clear;
+                }
+                qName.text = Loc.Get(cur == 0 ? "ui.action.style_shield" : "ui.action.style_sword");
+                qNameUntil = now + (first ? 4f : 2.5f);           // the name shows on a switch, then fades
+                shownQPad = !usingPad;                            // keys repainted below
+            }
+            if (shownQPad != usingPad)
+            {
+                shownQPad = usingPad;
+                qKey[0].text = usingPad ? "◀" : "1";
+                qKey[1].text = usingPad ? "▶" : "2";
+            }
+            if (Changed(ref shownQName, Mathf.Clamp01((qNameUntil - now) / 0.4f))) qName.style.opacity = shownQName;
         }
 
         void UpdateHint(float now)
